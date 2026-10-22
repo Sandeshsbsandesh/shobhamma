@@ -199,16 +199,18 @@ export function HomeView({ lang }: { lang: Lang }) {
           <ul className="roster">
             {t.people.members.map((member) => {
               const officer = officers.find((item) => item.id === member.id);
+              const photo = officer?.image;
+              const initials = officer?.initials;
               return (
                 <li key={member.id}>
-                  {officer?.image ? (
+                  {photo ? (
                     <img
-                      className={officer.portrait === "center" ? "portrait portrait-center" : "portrait"}
-                      src={officer.image}
+                      className={officer?.portrait === "center" ? "portrait portrait-center" : "portrait"}
+                      src={photo}
                       alt={member.name}
                     />
                   ) : (
-                    <span className="seal">{officer?.initials}</span>
+                    <span className="seal">{initials}</span>
                   )}
                   <span className="roster-name">{member.name}</span>
                   <span className="roster-role">{member.role}</span>

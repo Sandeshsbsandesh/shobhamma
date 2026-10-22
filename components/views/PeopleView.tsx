@@ -19,21 +19,23 @@ export function PeopleView({ lang }: { lang: Lang }) {
           <ul className="people">
             {t.members.map((member) => {
               const officer = officers.find((item) => item.id === member.id);
+              const photo = officer?.image;
+              const initials = officer?.initials;
               return (
                 <li key={member.id}>
-                  {officer?.image ? (
+                  {photo ? (
                     <img
                       className={
-                        officer.portrait === "center"
+                        officer?.portrait === "center"
                           ? "portrait portrait-large portrait-center"
                           : "portrait portrait-large"
                       }
-                      src={officer.image}
+                      src={photo}
                       alt={member.name}
                     />
                   ) : (
                     <span className="seal seal-large" aria-hidden="true">
-                      {officer?.initials}
+                      {initials}
                     </span>
                   )}
                   <div>
