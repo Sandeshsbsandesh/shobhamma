@@ -1,14 +1,13 @@
 import type { MetadataRoute } from "next";
-import { site } from "@/lib/site";
 
 export const dynamic = "force-static";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: site.nameTitle,
-    short_name: "Shobhaamma",
+    name: "Shobhaamma Charitable Foundation",
+    short_name: "Shobhamma",
     description:
-      "A foundation for students without the means to study, and older women without enough care.",
+      "Shobhaamma Charitable Foundation (Shobhamma, SCF) helps students who cannot afford school and elderly women who need care.",
     start_url: "/",
     display: "standalone",
     background_color: "#f4efe6",

@@ -55,6 +55,7 @@ export function Footer() {
         <p>
           © {span} {site.nameTitle}. {t.footer.rights}
         </p>
+        <p>{t.footer.known}</p>
         <p>
           {t.register.number}: {site.registration}
         </p>

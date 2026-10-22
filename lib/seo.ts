@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { copy, type Lang } from "@/lib/copy";
 import { withSlash } from "@/lib/paths";
+import { site } from "@/lib/site";
 
 const PATHS = {
   home: "",
@@ -23,6 +24,8 @@ export function metadataFor(lang: Lang, key: PageKey): Metadata {
   return {
     title: { absolute: meta.title },
     description: meta.description,
+    keywords: [...site.alsoKnownAs],
+    applicationName: site.nameTitle,
     alternates: {
       canonical,
       languages: {

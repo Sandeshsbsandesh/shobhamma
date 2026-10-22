@@ -1,34 +1,34 @@
 export const en = {
   meta: {
     home: {
-      title: "Shobhaamma Charitable Foundation",
+      title: "Shobhaamma Charitable Foundation | Shobhamma, SCF",
       description:
-        "Shobhaamma Charitable Foundation helps students who cannot afford their studies and older women who need care. Established 21 June 2024.",
+        "Shobhaamma Charitable Foundation, also known as Shobhamma, Shobhamma Foundation, and SCF, helps students who cannot afford their studies and older women who need care. Established 21 June 2024.",
     },
     about: {
-      title: "About · Shobhaamma Charitable Foundation",
+      title: "About Shobhamma · Shobhaamma Charitable Foundation",
       description:
-        "The story, purpose, and registration of Shobhaamma Charitable Foundation, formed in Patna on 21 June 2024.",
+        "About Shobhaamma Charitable Foundation (Shobhamma, Shobhamma Foundation, SCF): the story, purpose, and registration of the foundation formed in Patna on 21 June 2024.",
     },
     work: {
       title: "Our work · Shobhaamma Charitable Foundation",
       description:
-        "How Shobhaamma Charitable Foundation helps students without means, and older women without enough care.",
+        "How Shobhaamma Charitable Foundation (Shobhamma, SCF) helps students without means, and older women without enough care.",
     },
     people: {
       title: "People · Shobhaamma Charitable Foundation",
       description:
-        "The chairman, secretary, and treasurer of Shobhaamma Charitable Foundation.",
+        "The chairman, secretary, and treasurer of Shobhaamma Charitable Foundation (Shobhamma, SCF).",
     },
     support: {
       title: "Support · Shobhaamma Charitable Foundation",
       description:
-        "Donate through Razorpay, refer a student or an older woman, or volunteer with Shobhaamma Charitable Foundation.",
+        "Donate through Razorpay, refer a student or an older woman, or volunteer with Shobhaamma Charitable Foundation (Shobhamma, SCF).",
     },
     contact: {
       title: "Contact · Shobhaamma Charitable Foundation",
       description:
-        "Write to Shobhaamma Charitable Foundation at Gagan Apartment, Exhibition Road, Patna 800001.",
+        "Write to Shobhaamma Charitable Foundation (Shobhamma, SCF) at Gagan Apartment, Exhibition Road, Patna 800001.",
     },
   },
   nav: {
@@ -147,11 +147,12 @@ export const en = {
     map: "Show the foundation on a map",
     contact: "Contact form",
     rights: "All rights reserved.",
+    known: "Also known as Shobhamma, Shobhamma Foundation, and SCF.",
   },
   about: {
     kicker: "About",
     title: "About us",
-    lede: "Shobhaamma Charitable Foundation was founded on 21 June 2024. We support students who want to study but cannot afford it, and elderly women who are living without care.",
+    lede: "Shobhaamma Charitable Foundation, also known as Shobhamma, Shobhamma Foundation, and SCF, was founded on 21 June 2024. We support students who want to study but cannot afford it, and elderly women who are living without care.",
     storyTitle: "Why we exist",
     story: [
       "A child should not leave school because the family cannot pay. An older woman should not spend her later years without care.",
@@ -390,34 +391,34 @@ export const en = {
 export const hi: typeof en = {
   meta: {
     home: {
-      title: "शोभाअम्मा चैरिटेबल फाउंडेशन",
+      title: "शोभाअम्मा चैरिटेबल फाउंडेशन | Shobhamma, SCF",
       description:
-        "शोभाअम्मा चैरिटेबल फाउंडेशन उन विद्यार्थियों की सहायता करता है जो पढ़ाई का खर्च नहीं उठा पाते, और उन वृद्ध महिलाओं की जिन्हें देखभाल चाहिए। स्थापना 21 जून 2024।",
+        "शोभाअम्मा चैरिटेबल फाउंडेशन, जिसे Shobhamma, Shobhamma Foundation और SCF भी कहा जाता है, उन विद्यार्थियों की सहायता करता है जो पढ़ाई का खर्च नहीं उठा पाते, और उन वृद्ध महिलाओं की जिन्हें देखभाल चाहिए। स्थापना 21 जून 2024।",
     },
     about: {
       title: "परिचय · शोभाअम्मा चैरिटेबल फाउंडेशन",
       description:
-        "शोभाअम्मा चैरिटेबल फाउंडेशन की कथा, उद्देश्य, और पंजीकरण। संस्था 21 जून 2024 को पटना में बनी।",
+        "शोभाअम्मा चैरिटेबल फाउंडेशन (Shobhamma, SCF) की कथा, उद्देश्य, और पंजीकरण। संस्था 21 जून 2024 को पटना में बनी।",
     },
     work: {
       title: "काम · शोभाअम्मा चैरिटेबल फाउंडेशन",
       description:
-        "शोभाअम्मा चैरिटेबल फाउंडेशन उन विद्यार्थियों की सहायता कैसे करता है जिनके पास साधन नहीं, और उन वृद्ध महिलाओं की जिनकी देखभाल पर्याप्त नहीं।",
+        "शोभाअम्मा चैरिटेबल फाउंडेशन (Shobhamma, SCF) उन विद्यार्थियों की सहायता कैसे करता है जिनके पास साधन नहीं, और उन वृद्ध महिलाओं की जिनकी देखभाल पर्याप्त नहीं।",
     },
     people: {
       title: "टीम · शोभाअम्मा चैरिटेबल फाउंडेशन",
       description:
-        "शोभाअम्मा चैरिटेबल फाउंडेशन के अध्यक्ष, सचिव और कोषाध्यक्ष।",
+        "शोभाअम्मा चैरिटेबल फाउंडेशन (Shobhamma, SCF) के अध्यक्ष, सचिव और कोषाध्यक्ष।",
     },
     support: {
       title: "सहयोग · शोभाअम्मा चैरिटेबल फाउंडेशन",
       description:
-        "Razorpay से दान दीजिए, किसी विद्यार्थी या वृद्ध महिला का नाम बताइए, या शोभाअम्मा चैरिटेबल फाउंडेशन के साथ स्वयंसेवा कीजिए।",
+        "Razorpay से दान दीजिए, किसी विद्यार्थी या वृद्ध महिला का नाम बताइए, या शोभाअम्मा चैरिटेबल फाउंडेशन (Shobhamma, SCF) के साथ स्वयंसेवा कीजिए।",
     },
     contact: {
       title: "संपर्क · शोभाअम्मा चैरिटेबल फाउंडेशन",
       description:
-        "शोभाअम्मा चैरिटेबल फाउंडेशन को गगन अपार्टमेंट, एग्जिबिशन रोड, पटना 800001 पर पत्र लिखें।",
+        "शोभाअम्मा चैरिटेबल फाउंडेशन (Shobhamma, SCF) को गगन अपार्टमेंट, एग्जिबिशन रोड, पटना 800001 पर पत्र लिखें।",
     },
   },
   nav: {
@@ -536,11 +537,12 @@ export const hi: typeof en = {
     map: "संस्था नक्शे पर देखें",
     contact: "संपर्क पत्र",
     rights: "सर्वाधिकार सुरक्षित।",
+    known: "Shobhamma, Shobhamma Foundation और SCF के नाम से भी जानी जाती है।",
   },
   about: {
     kicker: "परिचय",
     title: "हमारे बारे में",
-    lede: "शोभाअम्मा चैरिटेबल फाउंडेशन की स्थापना 21 जून 2024 को हुई। हम उन विद्यार्थियों की सहायता करते हैं जो पढ़ना चाहते हैं पर खर्च नहीं उठा सकते, और उन वृद्ध महिलाओं की जो देखभाल के बिना रह रही हैं।",
+    lede: "शोभाअम्मा चैरिटेबल फाउंडेशन, जिसे Shobhamma, Shobhamma Foundation और SCF भी कहा जाता है, की स्थापना 21 जून 2024 को हुई। हम उन विद्यार्थियों की सहायता करते हैं जो पढ़ना चाहते हैं पर खर्च नहीं उठा सकते, और उन वृद्ध महिलाओं की जो देखभाल के बिना रह रही हैं।",
     storyTitle: "हम क्यों हैं",
     story: [
       "कोई बच्चा इसलिए स्कूल न छोड़े कि परिवार फीस नहीं भर सकता। कोई वृद्ध महिला अपने बाद के वर्ष देखभाल के बिना न बिताए।",

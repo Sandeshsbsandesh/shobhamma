@@ -26,8 +26,9 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description:
-    "Shobhaamma Charitable Foundation supports students who cannot afford to learn and elderly women who have no one to lean on. Established 21 June 2024.",
+    "Shobhaamma Charitable Foundation, also known as Shobhamma, Shobhamma Foundation, and SCF, supports students who cannot afford to learn and elderly women who have no one to lean on. Established 21 June 2024.",
   applicationName: site.nameTitle,
+  keywords: [...site.alsoKnownAs],
   authors: [{ name: site.nameTitle, url: site.url }],
   creator: site.nameTitle,
   category: "nonprofit",
