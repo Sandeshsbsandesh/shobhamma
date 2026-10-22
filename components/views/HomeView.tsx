@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Arrow, Heart } from "@/components/Arrow";
+import { HeroSlides } from "@/components/HeroSlides";
 import { Reveal } from "@/components/Reveal";
 import { VisionMission } from "@/components/VisionMission";
 import { copy, type Lang } from "@/lib/copy";
@@ -41,6 +42,8 @@ export function HomeView({ lang }: { lang: Lang }) {
   return (
     <div className={cls} lang={lang}>
       <section className="hero">
+        <HeroSlides />
+        <div className="hero-shade" aria-hidden="true" />
         <div className="wrap hero-layout">
           <div className="hero-copy">
             <div className="pulse" aria-hidden="true">
@@ -125,7 +128,7 @@ export function HomeView({ lang }: { lang: Lang }) {
             </div>
           </div>
           <div className="fact-grid">
-            {s.stats.map((item, index) => (
+            {s.stats.slice(0, 3).map((item, index) => (
               <Link className={`fact fact-${index}`} href={factHref(base, index)} key={item.label}>
                 <span className="fact-icon" aria-hidden="true">
                   <FactIcon index={index} />
