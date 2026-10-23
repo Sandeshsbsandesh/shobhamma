@@ -54,7 +54,7 @@ export const site = {
 } as const;
 
 export const officers = [
-  { id: "amit", name: "Amit Kumar", initials: "AK", jobTitle: "Chairman", image: "/images/amit-kumar.jpg", portrait: "top" },
+  { id: "amit", name: "Amit Kumar", initials: "AK", jobTitle: "Chairman", image: "/images/amit-kumar.jpg", portrait: "center" },
   { id: "kamlesh", name: "Kamlesh Thakur", initials: "KT", jobTitle: "Secretary", image: "/images/kamlesh-thakur.jpg", portrait: "center" },
   { id: "ranjeet", name: "Ranjeet Kumar", initials: "RK", jobTitle: "Treasurer", image: "/images/ranjeet-kumar.jpg", portrait: "center" },
 ] as const;
