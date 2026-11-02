@@ -1,34 +1,34 @@
 export const en = {
   meta: {
     home: {
-      title: "Shobhaamma Charitable Foundation | Shobhamma, SCF",
+      title: "Shobhaamma Charitable Foundation | Official Website",
       description:
-        "Shobhaamma Charitable Foundation, also known as Shobhamma, Shobhamma Foundation, and SCF, helps students who cannot afford their studies and older women who need care. Established 21 June 2024.",
+        "Official website of Shobhaamma Charitable Foundation (Shobhamma, SCF), Patna. We help children and students who cannot afford school fees, books, or supplies. Established 21 June 2024.",
     },
     about: {
-      title: "About Shobhamma · Shobhaamma Charitable Foundation",
+      title: "About Shobhaamma Charitable Foundation | Shobhamma, SCF",
       description:
-        "About Shobhaamma Charitable Foundation (Shobhamma, Shobhamma Foundation, SCF): the story, purpose, and registration of the foundation formed in Patna on 21 June 2024.",
+        "About Shobhaamma Charitable Foundation (also known as Shobhamma and SCF): story, mission, and registration of the education charity formed in Patna on 21 June 2024.",
     },
     work: {
-      title: "Our work · Shobhaamma Charitable Foundation",
+      title: "Our work | Shobhaamma Charitable Foundation",
       description:
-        "How Shobhaamma Charitable Foundation (Shobhamma, SCF) helps students without means, and older women without enough care.",
+        "Shobhaamma Charitable Foundation helps children and students stay in school with fees, books, uniforms, and community education programmes.",
     },
     people: {
-      title: "People · Shobhaamma Charitable Foundation",
+      title: "Our team | Shobhaamma Charitable Foundation",
       description:
-        "The chairman, secretary, and treasurer of Shobhaamma Charitable Foundation (Shobhamma, SCF).",
+        "Meet the chairman, secretary, and treasurer of Shobhaamma Charitable Foundation (Shobhamma, SCF).",
     },
     support: {
-      title: "Support · Shobhaamma Charitable Foundation",
+      title: "Donate & support | Shobhaamma Charitable Foundation",
       description:
-        "Donate through Razorpay, refer a student or an older woman, or volunteer with Shobhaamma Charitable Foundation (Shobhamma, SCF).",
+        "Donate through Razorpay, refer a student, or volunteer with Shobhaamma Charitable Foundation (Shobhamma, SCF).",
     },
     contact: {
-      title: "Contact · Shobhaamma Charitable Foundation",
+      title: "Contact | Shobhaamma Charitable Foundation",
       description:
-        "Write to Shobhaamma Charitable Foundation (Shobhamma, SCF) at Gagan Apartment, Exhibition Road, Patna 800001.",
+        "Contact Shobhaamma Charitable Foundation at Gagan Apartment, Exhibition Road, Patna 800001, Bihar. Email shobhaammacharitablefoundation@gmail.com.",
     },
   },
   nav: {
@@ -51,21 +51,21 @@ export const en = {
   },
   hero: {
     eyebrow: "Established 21 June 2024",
-    line1: "A student without the means to study.",
-    line2: "An older woman without enough care.",
-    deck: "Shobhaamma Charitable Foundation supports students who cannot afford to learn and elderly women who have no one to lean on.",
+    line1: "A child who should be in school.",
+    line2: "A student without the means to study.",
+    deck: "Shobhaamma Charitable Foundation supports children and students who cannot afford fees, books, or school supplies.",
     primary: "Support our work",
     secondary: "Who we are",
     plateCaption: "Since 2024",
     plateMeta: "21 June 2024",
   },
   showcase: {
-    place: "Helping students and elderly women since 2024",
-    title: "Education for the young.\nCare for the elderly.",
+    place: "Shobhaamma Charitable Foundation · helping children stay in school since 2024",
+    title: "Education for every child.\nA chance to stay in school.",
     local: "शोभा का अर्थ कांति है। अम्मा का अर्थ माँ है।",
     stats: [
       { value: "Education", label: "Fees, books, and school supplies" },
-      { value: "Care", label: "Support for elderly women" },
+      { value: "Students", label: "Help so a child can stay in school" },
       { value: "Community", label: "Camps that bring people together" },
       { value: "2024", label: "Founded on 21 June" },
     ],
@@ -85,24 +85,24 @@ export const en = {
   },
   promises: {
     kicker: "Our programmes",
-    title: "Education, care, and community",
+    title: "Education for children and students",
     studentTitle: "Education support",
     studentText:
       "School and college fees, books, and uniforms for students whose families cannot afford them.",
     studentLink: "See education support",
-    womanTitle: "Care for elderly women",
-    womanText:
-      "Food, medicines, and company for older women who have no family to depend on.",
-    womanLink: "See elderly care",
+    kitsTitle: "Books and uniforms",
+    kitsText:
+      "Notebooks, textbooks, and a uniform so a child can walk into class ready to learn.",
+    kitsLink: "See education support",
     communityTitle: "Community programmes",
-    communityText: "Camps and gatherings where people give time, share, and learn together.",
+    communityText: "Camps and gatherings where people give time, share, and support local students.",
     communityLink: "See community programmes",
   },
   story: {
     kicker: "Our story",
     title: "Shobha is grace. Amma is mother.",
     body: [
-      "The name holds both. Our work is for a child who should be in school, and an older woman who should not be left alone.",
+      "The name holds both. Our work is for a child who should be in school, and a student who should not leave because the family cannot pay.",
       "Shobhaamma Charitable Foundation began on 21 June 2024. Amit Kumar is chairman, Kamlesh Thakur is secretary, and Ranjeet Kumar is treasurer.",
     ],
     link: "Read our story",
@@ -114,17 +114,17 @@ export const en = {
       {
         index: "01",
         title: "Reach out",
-        text: "A family, a neighbour, or a school writes to us about a student who cannot pay fees, or an older woman who needs care.",
+        text: "A family, a neighbour, or a school writes to us about a student who cannot pay fees or needs books and supplies.",
       },
       {
         index: "02",
         title: "We listen",
-        text: "We understand what that person needs, and what the foundation can offer.",
+        text: "We understand what that student needs, and what the foundation can offer.",
       },
       {
         index: "03",
         title: "We support",
-        text: "Fees, books, rations, medicine, or a visit. Every rupee is accounted for.",
+        text: "Fees, books, a uniform, or school supplies. Every rupee is accounted for.",
       },
     ],
   },
@@ -152,17 +152,17 @@ export const en = {
   about: {
     kicker: "About",
     title: "About us",
-    lede: "Shobhaamma Charitable Foundation, also known as Shobhamma, Shobhamma Foundation, and SCF, was founded on 21 June 2024. We support students who want to study but cannot afford it, and elderly women who are living without care.",
+    lede: "Shobhaamma Charitable Foundation, also known as Shobhamma, Shobhamma Foundation, and SCF, was founded on 21 June 2024. We support children and students who want to study but cannot afford fees, books, or school supplies.",
     storyTitle: "Why we exist",
     story: [
-      "A child should not leave school because the family cannot pay. An older woman should not spend her later years without care.",
+      "A child should not leave school because the family cannot pay. A student should not lose a year for want of books or a uniform.",
     ],
     visionTitle: "Vision",
-    vision: "A society where every student can learn and every elderly woman lives with dignity.",
+    vision: "A society where every child can learn and every student can stay in school.",
     missionTitle: "Mission",
-    mission: "To help students continue their education, and to stand with elderly women who need care.",
-    mvSeal: "Education and care",
-    mvRibbon: "School and care",
+    mission: "To help children and students continue their education when the family cannot meet the cost.",
+    mvSeal: "Education first",
+    mvRibbon: "School for every child",
     mvMark: "2024",
     mvMarkLabel: "Founded",
     valuesTitle: "What we stand for",
@@ -172,8 +172,8 @@ export const en = {
         text: "Fees, books, and supplies so a student can stay in school.",
       },
       {
-        title: "Care",
-        text: "Food, health support, and company for an older woman on her own.",
+        title: "Opportunity",
+        text: "A fair chance for a child whose family cannot meet school costs alone.",
       },
       {
         title: "Respect",
@@ -191,7 +191,7 @@ export const en = {
   work: {
     kicker: "Our work",
     title: "What we do",
-    lede: "We help students continue their education, stand with elderly women who need care, and bring people together through community programmes.",
+    lede: "We help children and students continue their education, and bring people together through community programmes that support learning.",
     students: {
       index: "01",
       title: "Education support",
@@ -211,33 +211,13 @@ export const en = {
       ],
       link: "Tell us about a student",
     },
-    women: {
-      index: "02",
-      title: "Care for elderly women",
-      intro:
-        "Food, health support, and company for older women who have no family to depend on.",
-      canTitle: "What we provide",
-      can: [
-        "Rations and essentials for the month.",
-        "Medicines a doctor has already prescribed.",
-        "Someone to go with her to a hospital or a pension office.",
-        "A visit, so the care is more than a parcel at the door.",
-      ],
-      askTitle: "How to tell us",
-      ask: [
-        "Her name, age, and where she lives.",
-        "What she needs.",
-        "Who is writing, if she is not writing herself, and how we can reply.",
-      ],
-      link: "Tell us about an older woman",
-    },
     community: {
-      index: "03",
+      index: "02",
       title: "Community programmes",
-      intro: "Camps and gatherings where people give time, share what they can, and learn together.",
+      intro: "Camps and gatherings where people give time, share what they can, and support local students.",
       canTitle: "What we provide",
       can: [
-        "A camp or gathering for neighbours to give time or materials.",
+        "A camp or gathering for neighbours to give time or school materials.",
         "A way for a school, a street, or a residents’ group to work with us.",
       ],
       askTitle: "How to tell us",
@@ -266,13 +246,13 @@ export const en = {
         id: "amit" as const,
         name: "Amit Kumar",
         role: "Chairman",
-        bio: "He leads the foundation’s work in education and care for elderly women.",
+        bio: "He leads the foundation’s work in education for children and students.",
       },
       {
         id: "kamlesh" as const,
         name: "Kamlesh Thakur",
         role: "Secretary",
-        bio: "Keeps the foundation’s records and follows each family’s case through.",
+        bio: "Keeps the foundation’s records and follows each student’s case through.",
       },
       {
         id: "ranjeet" as const,
@@ -285,7 +265,7 @@ export const en = {
   support: {
     kicker: "Donate",
     title: "Give a student a year of school",
-    lede: "Every gift goes toward school fees, books, or care for an elderly woman. Pay on this page. Razorpay sends the receipt.",
+    lede: "Every gift goes toward school fees, books, or supplies for a child who needs them. Pay on this page. Razorpay sends the receipt.",
     warning:
       "Pay only through Donate now on this page. Do not send money to a personal UPI that uses the name Shobhaamma.",
     donate: {
@@ -295,7 +275,7 @@ export const en = {
       purposeLabel: "This gift is for",
       purposes: [
         { id: "education", label: "School fees and books" },
-        { id: "care", label: "Care for an elderly woman" },
+        { id: "supplies", label: "Uniforms and school supplies" },
         { id: "where", label: "Wherever the need is" },
       ],
       submit: "Donate now",
@@ -319,22 +299,19 @@ export const en = {
       {
         index: "02",
         title: "Refer",
-        text: "Know a student who may leave school, or an older woman who needs care? Tell us. You do not have to donate to help.",
-        links: [
-          { id: "student", label: "Refer a student" },
-          { id: "woman", label: "Refer an older woman" },
-        ],
+        text: "Know a student who may leave school for want of fees or books? Tell us. You do not have to donate to help.",
+        links: [{ id: "student", label: "Refer a student" }],
       },
       {
         index: "03",
         title: "Volunteer",
-        text: "Join us for visits, school or hospital errands, and keeping records. Tell us where you are and the time you can give.",
+        text: "Join us for school visits, education programmes, and keeping records. Tell us where you are and the time you can give.",
         links: [{ id: "volunteer", label: "Offer your time" }],
       },
       {
         index: "04",
         title: "Partner",
-        text: "Schools, clinics, and community groups are welcome to work with us. Write to the secretary.",
+        text: "Schools and community groups are welcome to work with us. Write to the secretary.",
         links: [{ id: "partner", label: "Write as a partner" }],
       },
     ],
@@ -342,7 +319,7 @@ export const en = {
   contact: {
     kicker: "Contact",
     title: "Get in touch",
-    lede: "Refer someone who needs help, offer your time, or ask a question. We reply to every message.",
+    lede: "Refer a student who needs help, offer your time, or ask a question. We reply to every message.",
     phoneNote: "Email is the way to reach us. We reply to every message.",
     addressTitle: "Address",
     emailTitle: "Email",
@@ -372,9 +349,8 @@ export const en = {
       },
       reasons: [
         { id: "student", label: "I am referring a student" },
-        { id: "woman", label: "I am referring an older woman" },
         { id: "volunteer", label: "I want to volunteer" },
-        { id: "partner", label: "I am writing as a school, clinic, or group" },
+        { id: "partner", label: "I am writing as a school or group" },
         { id: "drive", label: "I want to help with a community drive" },
         { id: "other", label: "Something else" },
       ],
@@ -391,34 +367,34 @@ export const en = {
 export const hi: typeof en = {
   meta: {
     home: {
-      title: "शोभाअम्मा चैरिटेबल फाउंडेशन | Shobhamma, SCF",
+      title: "शोभाअम्मा चैरिटेबल फाउंडेशन | आधिकारिक वेबसाइट",
       description:
-        "शोभाअम्मा चैरिटेबल फाउंडेशन, जिसे Shobhamma, Shobhamma Foundation और SCF भी कहा जाता है, उन विद्यार्थियों की सहायता करता है जो पढ़ाई का खर्च नहीं उठा पाते, और उन वृद्ध महिलाओं की जिन्हें देखभाल चाहिए। स्थापना 21 जून 2024।",
+        "शोभाअम्मा चैरिटेबल फाउंडेशन (Shobhamma, SCF) की आधिकारिक वेबसाइट, पटना। हम उन बच्चों और विद्यार्थियों की सहायता करते हैं जो स्कूल का खर्च नहीं उठा पाते। स्थापना 21 जून 2024।",
     },
     about: {
-      title: "परिचय · शोभाअम्मा चैरिटेबल फाउंडेशन",
+      title: "परिचय | शोभाअम्मा चैरिटेबल फाउंडेशन",
       description:
-        "शोभाअम्मा चैरिटेबल फाउंडेशन (Shobhamma, SCF) की कथा, उद्देश्य, और पंजीकरण। संस्था 21 जून 2024 को पटना में बनी।",
+        "शोभाअम्मा चैरिटेबल फाउंडेशन (Shobhamma, SCF) की कथा, उद्देश्य, और पंजीकरण। शिक्षा संस्था 21 जून 2024 को पटना में बनी।",
     },
     work: {
-      title: "काम · शोभाअम्मा चैरिटेबल फाउंडेशन",
+      title: "हमारा काम | शोभाअम्मा चैरिटेबल फाउंडेशन",
       description:
-        "शोभाअम्मा चैरिटेबल फाउंडेशन (Shobhamma, SCF) उन विद्यार्थियों की सहायता कैसे करता है जिनके पास साधन नहीं, और उन वृद्ध महिलाओं की जिनकी देखभाल पर्याप्त नहीं।",
+        "शोभाअम्मा चैरिटेबल फाउंडेशन फीस, किताबों और सामान से बच्चों और विद्यार्थियों को स्कूल में बनाए रखने में मदद करता है।",
     },
     people: {
-      title: "टीम · शोभाअम्मा चैरिटेबल फाउंडेशन",
+      title: "हमारी टीम | शोभाअम्मा चैरिटेबल फाउंडेशन",
       description:
         "शोभाअम्मा चैरिटेबल फाउंडेशन (Shobhamma, SCF) के अध्यक्ष, सचिव और कोषाध्यक्ष।",
     },
     support: {
-      title: "सहयोग · शोभाअम्मा चैरिटेबल फाउंडेशन",
+      title: "दान और सहयोग | शोभाअम्मा चैरिटेबल फाउंडेशन",
       description:
-        "Razorpay से दान दीजिए, किसी विद्यार्थी या वृद्ध महिला का नाम बताइए, या शोभाअम्मा चैरिटेबल फाउंडेशन (Shobhamma, SCF) के साथ स्वयंसेवा कीजिए।",
+        "Razorpay से दान दीजिए, किसी विद्यार्थी का नाम बताइए, या शोभाअम्मा चैरिटेबल फाउंडेशन के साथ स्वयंसेवा कीजिए।",
     },
     contact: {
-      title: "संपर्क · शोभाअम्मा चैरिटेबल फाउंडेशन",
+      title: "संपर्क | शोभाअम्मा चैरिटेबल फाउंडेशन",
       description:
-        "शोभाअम्मा चैरिटेबल फाउंडेशन (Shobhamma, SCF) को गगन अपार्टमेंट, एग्जिबिशन रोड, पटना 800001 पर पत्र लिखें।",
+        "शोभाअम्मा चैरिटेबल फाउंडेशन, गगन अपार्टमेंट, एग्जिबिशन रोड, पटना 800001। ईमेल shobhaammacharitablefoundation@gmail.com।",
     },
   },
   nav: {
@@ -441,21 +417,21 @@ export const hi: typeof en = {
   },
   hero: {
     eyebrow: "स्थापना 21 जून 2024",
-    line1: "एक विद्यार्थी, जिसके पास पढ़ने का साधन नहीं।",
-    line2: "एक वृद्ध महिला, जिसके पास पर्याप्त देखभाल नहीं।",
-    deck: "शोभाअम्मा चैरिटेबल फाउंडेशन उन विद्यार्थियों की सहायता करता है जो पढ़ाई का खर्च नहीं उठा पाते, और उन वृद्ध महिलाओं की जिनके सहारे कोई नहीं है।",
+    line1: "एक बच्चा, जिसे स्कूल में होना चाहिए।",
+    line2: "एक विद्यार्थी, जिसके पास पढ़ने का साधन नहीं।",
+    deck: "शोभाअम्मा चैरिटेबल फाउंडेशन उन बच्चों और विद्यार्थियों की सहायता करता है जो फीस, किताबें या स्कूल का सामान नहीं जुटा पाते।",
     primary: "हमारे काम में सहयोग करें",
     secondary: "हम कौन हैं",
     plateCaption: "2024 से",
     plateMeta: "21 जून 2024",
   },
   showcase: {
-    place: "2024 से विद्यार्थियों और वृद्ध महिलाओं की सहायता",
-    title: "युवाओं के लिए शिक्षा।\nवृद्धों के लिए देखभाल।",
-    local: "Education for the young. Care for the elderly.",
+    place: "शोभाअम्मा चैरिटेबल फाउंडेशन · 2024 से बच्चों को स्कूल में बनाए रखने की सहायता",
+    title: "हर बच्चे के लिए शिक्षा।\nस्कूल में बने रहने का मौका।",
+    local: "Education for every child. A chance to stay in school.",
     stats: [
       { value: "शिक्षा", label: "फीस, किताबें और स्कूल का सामान" },
-      { value: "देखभाल", label: "वृद्ध महिलाओं के लिए सहारा" },
+      { value: "विद्यार्थी", label: "ताकि बच्चा स्कूल में बना रहे" },
       { value: "समुदाय", label: "लोगों को साथ लाने वाले शिविर" },
       { value: "2024", label: "21 जून को स्थापना" },
     ],
@@ -475,24 +451,24 @@ export const hi: typeof en = {
   },
   promises: {
     kicker: "हमारे कार्यक्रम",
-    title: "शिक्षा, देखभाल और समुदाय",
+    title: "बच्चों और विद्यार्थियों के लिए शिक्षा",
     studentTitle: "शिक्षा सहायता",
     studentText:
       "उन विद्यार्थियों के लिए स्कूल और कॉलेज की फीस, किताबें और गणवेश, जिनके परिवार यह खर्च नहीं उठा सकते।",
     studentLink: "शिक्षा सहायता देखें",
-    womanTitle: "वृद्ध महिलाओं की देखभाल",
-    womanText:
-      "उन वृद्ध महिलाओं के लिए भोजन, दवा और साथ, जिनके परिवार में सहारा नहीं है।",
-    womanLink: "वृद्ध देखभाल देखें",
+    kitsTitle: "किताबें और गणवेश",
+    kitsText:
+      "कापियाँ, पाठ्यपुस्तकें और गणवेश, ताकि बच्चा कक्षा में सीखने के लिए तैयार पहुँचे।",
+    kitsLink: "शिक्षा सहायता देखें",
     communityTitle: "सामुदायिक कार्यक्रम",
-    communityText: "ऐसे शिविर और मिलन जहाँ लोग समय देते हैं, बाँटते हैं और साथ सीखते हैं।",
+    communityText: "ऐसे शिविर और मिलन जहाँ लोग समय देते हैं, बाँटते हैं और स्थानीय विद्यार्थियों का साथ देते हैं।",
     communityLink: "सामुदायिक कार्यक्रम देखें",
   },
   story: {
     kicker: "हमारी कहानी",
     title: "शोभा का अर्थ कांति है। अम्मा का अर्थ माँ है।",
     body: [
-      "नाम में दोनों बातें हैं। हमारा काम उस बच्चे के लिए है जिसे स्कूल में होना चाहिए, और उस वृद्ध महिला के लिए जिसे अकेला नहीं छोड़ा जाना चाहिए।",
+      "नाम में दोनों बातें हैं। हमारा काम उस बच्चे के लिए है जिसे स्कूल में होना चाहिए, और उस विद्यार्थी के लिए जो इसलिए न छोड़े कि परिवार फीस नहीं भर सकता।",
       "शोभाअम्मा चैरिटेबल फाउंडेशन 21 जून 2024 को शुरू हुई। अमित कुमार अध्यक्ष हैं, कमलेश ठाकुर सचिव हैं, और रणजीत कुमार कोषाध्यक्ष हैं।",
     ],
     link: "हमारी कहानी पढ़ें",
@@ -504,17 +480,17 @@ export const hi: typeof en = {
       {
         index: "01",
         title: "संपर्क",
-        text: "परिवार, कोई पड़ोसी, या स्कूल हमें ऐसे विद्यार्थी के बारे में लिखता है जो फीस नहीं भर सकता, या ऐसी वृद्ध महिला के बारे में जिसे देखभाल चाहिए।",
+        text: "परिवार, कोई पड़ोसी, या स्कूल हमें ऐसे विद्यार्थी के बारे में लिखता है जो फीस नहीं भर सकता, या जिसे किताबें और सामान चाहिए।",
       },
       {
         index: "02",
         title: "हम सुनते हैं",
-        text: "हम समझते हैं कि उस व्यक्ति को क्या चाहिए, और संस्था क्या दे सकती है।",
+        text: "हम समझते हैं कि उस विद्यार्थी को क्या चाहिए, और संस्था क्या दे सकती है।",
       },
       {
         index: "03",
         title: "हम सहारा देते हैं",
-        text: "फीस, किताबें, राशन, दवा, या एक भेंट। हर रुपये का हिसाब रखा जाता है।",
+        text: "फीस, किताबें, गणवेश, या स्कूल का सामान। हर रुपये का हिसाब रखा जाता है।",
       },
     ],
   },
@@ -542,17 +518,17 @@ export const hi: typeof en = {
   about: {
     kicker: "परिचय",
     title: "हमारे बारे में",
-    lede: "शोभाअम्मा चैरिटेबल फाउंडेशन, जिसे Shobhamma, Shobhamma Foundation और SCF भी कहा जाता है, की स्थापना 21 जून 2024 को हुई। हम उन विद्यार्थियों की सहायता करते हैं जो पढ़ना चाहते हैं पर खर्च नहीं उठा सकते, और उन वृद्ध महिलाओं की जो देखभाल के बिना रह रही हैं।",
+    lede: "शोभाअम्मा चैरिटेबल फाउंडेशन, जिसे Shobhamma, Shobhamma Foundation और SCF भी कहा जाता है, की स्थापना 21 जून 2024 को हुई। हम उन बच्चों और विद्यार्थियों की सहायता करते हैं जो पढ़ना चाहते हैं पर फीस, किताबें या स्कूल का सामान नहीं जुटा पाते।",
     storyTitle: "हम क्यों हैं",
     story: [
-      "कोई बच्चा इसलिए स्कूल न छोड़े कि परिवार फीस नहीं भर सकता। कोई वृद्ध महिला अपने बाद के वर्ष देखभाल के बिना न बिताए।",
+      "कोई बच्चा इसलिए स्कूल न छोड़े कि परिवार फीस नहीं भर सकता। कोई विद्यार्थी किताबों या गणवेश के अभाव में वर्ष न खोए।",
     ],
     visionTitle: "दृष्टि",
-    vision: "एक ऐसा समाज जहाँ हर विद्यार्थी पढ़ सके और हर वृद्ध महिला गरिमा के साथ जिए।",
+    vision: "एक ऐसा समाज जहाँ हर बच्चा पढ़ सके और हर विद्यार्थी स्कूल में बना रहे।",
     missionTitle: "लक्ष्य",
-    mission: "विद्यार्थियों की पढ़ाई जारी रखने में मदद करना, और देखभाल की ज़रूरत वाली वृद्ध महिलाओं के साथ खड़े होना।",
-    mvSeal: "शिक्षा और देखभाल",
-    mvRibbon: "स्कूल और देखभाल",
+    mission: "जब परिवार खर्च नहीं उठा सकता, तब बच्चों और विद्यार्थियों की पढ़ाई जारी रखने में मदद करना।",
+    mvSeal: "पहले शिक्षा",
+    mvRibbon: "हर बच्चे के लिए स्कूल",
     mvMark: "2024",
     mvMarkLabel: "स्थापना",
     valuesTitle: "हम किस पर खड़े हैं",
@@ -562,8 +538,8 @@ export const hi: typeof en = {
         text: "फीस, किताबें और सामान, ताकि विद्यार्थी स्कूल में बना रहे।",
       },
       {
-        title: "देखभाल",
-        text: "अकेली वृद्ध महिला के लिए भोजन, स्वास्थ्य सहायता और साथ।",
+        title: "अवसर",
+        text: "उस बच्चे के लिए समान मौका, जिसका परिवार अकेले स्कूल का खर्च नहीं उठा सकता।",
       },
       {
         title: "सम्मान",
@@ -581,7 +557,7 @@ export const hi: typeof en = {
   work: {
     kicker: "हमारा काम",
     title: "हम क्या करते हैं",
-    lede: "हम विद्यार्थियों की पढ़ाई जारी रखने में मदद करते हैं, देखभाल की ज़रूरत वाली वृद्ध महिलाओं के साथ खड़े होते हैं, और सामुदायिक कार्यक्रमों से लोगों को साथ लाते हैं।",
+    lede: "हम बच्चों और विद्यार्थियों की पढ़ाई जारी रखने में मदद करते हैं, और ऐसे सामुदायिक कार्यक्रमों से लोगों को साथ लाते हैं जो शिक्षा का साथ देते हैं।",
     students: {
       index: "01",
       title: "शिक्षा सहायता",
@@ -601,33 +577,13 @@ export const hi: typeof en = {
       ],
       link: "एक विद्यार्थी के बारे में बताएँ",
     },
-    women: {
-      index: "02",
-      title: "वृद्ध महिलाओं की देखभाल",
-      intro:
-        "उन वृद्ध महिलाओं के लिए भोजन, स्वास्थ्य सहायता और साथ, जिनके परिवार में सहारा नहीं है।",
-      canTitle: "हम क्या देते हैं",
-      can: [
-        "महीने का राशन और ज़रूरी सामान।",
-        "वह दवा जो चिकित्सक पहले ही लिख चुके हों।",
-        "कोई व्यक्ति जो उनके साथ अस्पताल या पेंशन कार्यालय जाए।",
-        "एक भेंट, ताकि देखभाल केवल दरवाज़े पर रखे पार्सल तक न रहे।",
-      ],
-      askTitle: "हमें कैसे बताएँ",
-      ask: [
-        "उनका नाम, उम्र, और वे कहाँ रहती हैं।",
-        "उन्हें क्या चाहिए।",
-        "यदि वे स्वयं नहीं लिख रहीं, तो कौन लिख रहा है, और हम उत्तर कहाँ भेजें।",
-      ],
-      link: "एक वृद्ध महिला के बारे में बताएँ",
-    },
     community: {
-      index: "03",
+      index: "02",
       title: "सामुदायिक कार्यक्रम",
-      intro: "ऐसे शिविर और मिलन जहाँ लोग समय देते हैं, जो हो सके वह बाँटते हैं, और साथ सीखते हैं।",
+      intro: "ऐसे शिविर और मिलन जहाँ लोग समय देते हैं, जो हो सके वह बाँटते हैं, और स्थानीय विद्यार्थियों का साथ देते हैं।",
       canTitle: "हम क्या देते हैं",
       can: [
-        "पड़ोसियों के लिए शिविर या मिलन, जहाँ वे समय या सामान दें।",
+        "पड़ोसियों के लिए शिविर या मिलन, जहाँ वे समय या स्कूल का सामान दें।",
         "किसी स्कूल, गली, या निवासी समूह के साथ काम करने का रास्ता।",
       ],
       askTitle: "हमें कैसे बताएँ",
@@ -656,13 +612,13 @@ export const hi: typeof en = {
         id: "amit",
         name: "अमित कुमार",
         role: "अध्यक्ष",
-        bio: "वे शिक्षा और वृद्ध महिलाओं की देखभाल में संस्था का काम आगे बढ़ाते हैं।",
+        bio: "वे बच्चों और विद्यार्थियों की शिक्षा में संस्था का काम आगे बढ़ाते हैं।",
       },
       {
         id: "kamlesh",
         name: "कमलेश ठाकुर",
         role: "सचिव",
-        bio: "संस्था के रिकॉर्ड संभालते हैं, और हर परिवार के मामले को आगे तक देखते हैं।",
+        bio: "संस्था के रिकॉर्ड संभालते हैं, और हर विद्यार्थी के मामले को आगे तक देखते हैं।",
       },
       {
         id: "ranjeet",
@@ -675,7 +631,7 @@ export const hi: typeof en = {
   support: {
     kicker: "दान",
     title: "एक विद्यार्थी को स्कूल का एक वर्ष दीजिए",
-    lede: "हर दान स्कूल की फीस, किताबों, या एक वृद्ध महिला की देखभाल में लगता है। भुगतान इसी पृष्ठ पर करें। रसीद Razorpay भेजता है।",
+    lede: "हर दान स्कूल की फीस, किताबों, या उस बच्चे के सामान में लगता है जिसे इनकी ज़रूरत है। भुगतान इसी पृष्ठ पर करें। रसीद Razorpay भेजता है।",
     warning:
       "पैसे केवल इसी पृष्ठ के ‘अभी दान दें’ से भेजें। शोभाअम्मा के नाम वाले किसी व्यक्तिगत यूपीआई पर पैसे न भेजें।",
     donate: {
@@ -685,7 +641,7 @@ export const hi: typeof en = {
       purposeLabel: "यह दान किसके लिए है",
       purposes: [
         { id: "education", label: "स्कूल की फीस और किताबें" },
-        { id: "care", label: "एक वृद्ध महिला की देखभाल" },
+        { id: "supplies", label: "गणवेश और स्कूल का सामान" },
         { id: "where", label: "जहाँ ज़रूरत हो" },
       ],
       submit: "अभी दान दें",
@@ -709,22 +665,19 @@ export const hi: typeof en = {
       {
         index: "02",
         title: "नाम बताएँ",
-        text: "कोई विद्यार्थी स्कूल छोड़ सकता है, या किसी वृद्ध महिला को देखभाल चाहिए? हमें बताइए। मदद के लिए दान ज़रूरी नहीं।",
-        links: [
-          { id: "student", label: "एक विद्यार्थी का नाम भेजें" },
-          { id: "woman", label: "एक वृद्ध महिला का नाम भेजें" },
-        ],
+        text: "कोई विद्यार्थी फीस या किताबों के अभाव में स्कूल छोड़ सकता है? हमें बताइए। मदद के लिए दान ज़रूरी नहीं।",
+        links: [{ id: "student", label: "एक विद्यार्थी का नाम भेजें" }],
       },
       {
         index: "03",
         title: "स्वयंसेवा",
-        text: "भेंट, स्कूल या अस्पताल के काम, और हिसाब रखने में हमारे साथ जुड़ें। बताइए आप कहाँ हैं, और कितना समय दे सकते हैं।",
+        text: "स्कूल की भेंट, शिक्षा कार्यक्रम, और हिसाब रखने में हमारे साथ जुड़ें। बताइए आप कहाँ हैं, और कितना समय दे सकते हैं।",
         links: [{ id: "volunteer", label: "समय दीजिए" }],
       },
       {
         index: "04",
         title: "सहयोगी संस्था",
-        text: "स्कूल, चिकित्सालय और सामुदायिक समूह हमारे साथ काम कर सकते हैं। सचिव को लिखें।",
+        text: "स्कूल और सामुदायिक समूह हमारे साथ काम कर सकते हैं। सचिव को लिखें।",
         links: [{ id: "partner", label: "सहयोगी के रूप में लिखें" }],
       },
     ],
@@ -732,7 +685,7 @@ export const hi: typeof en = {
   contact: {
     kicker: "संपर्क",
     title: "संपर्क करें",
-    lede: "किसी ज़रूरतमंद का नाम बताइए, अपना समय दीजिए, या प्रश्न पूछिए। हम हर संदेश का उत्तर देते हैं।",
+    lede: "किसी विद्यार्थी का नाम बताइए, अपना समय दीजिए, या प्रश्न पूछिए। हम हर संदेश का उत्तर देते हैं।",
     phoneNote:
       "हम तक पहुँचने का तरीका ईमेल है। हम हर संदेश का उत्तर देते हैं।",
     addressTitle: "पता",
@@ -763,9 +716,8 @@ export const hi: typeof en = {
       },
       reasons: [
         { id: "student", label: "एक विद्यार्थी का नाम भेजना है" },
-        { id: "woman", label: "एक वृद्ध महिला का नाम भेजना है" },
         { id: "volunteer", label: "स्वयंसेवा करनी है" },
-        { id: "partner", label: "स्कूल, चिकित्सालय, या समूह की ओर से" },
+        { id: "partner", label: "स्कूल या समूह की ओर से" },
         { id: "drive", label: "सामुदायिक अभियान में हाथ बँटाना है" },
         { id: "other", label: "कोई अन्य बात" },
       ],

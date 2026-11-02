@@ -61,37 +61,57 @@ export const officers = [
 
 export type OfficerId = (typeof officers)[number]["id"];
 
+const orgId = `${site.url}/#organization`;
+
 export const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "NGO",
-  name: site.name,
-  legalName: site.name,
-  alternateName: site.alsoKnownAs,
-  url: site.url,
-  email: site.email,
-  foundingDate: site.foundedISO,
-  foundingLocation: {
-    "@type": "Place",
-    name: "Patna, Bihar, India",
-  },
-  areaServed: {
-    "@type": "Country",
-    name: "India",
-  },
-  address: {
-    "@type": "PostalAddress",
-    ...site.postal,
-  },
-  identifier: site.registration,
-  knowsLanguage: ["en", "hi"],
-  knowsAbout: [
-    "Support for students without the means to study",
-    "Care for older women",
+  "@graph": [
+    {
+      "@type": ["NGO", "Organization"],
+      "@id": orgId,
+      name: site.nameTitle,
+      legalName: site.name,
+      alternateName: [...site.alsoKnownAs],
+      url: site.url,
+      email: site.email,
+      logo: `${site.url}/images/logo.png`,
+      image: `${site.url}/images/education-study.jpg`,
+      foundingDate: site.foundedISO,
+      foundingLocation: {
+        "@type": "Place",
+        name: "Patna, Bihar, India",
+      },
+      areaServed: {
+        "@type": "Country",
+        name: "India",
+      },
+      address: {
+        "@type": "PostalAddress",
+        ...site.postal,
+      },
+      identifier: site.registration,
+      knowsLanguage: ["en", "hi"],
+      knowsAbout: [
+        "Shobhaamma Charitable Foundation",
+        "Support for children and students without the means to study",
+        "School fees, books, and uniforms for students in need",
+      ],
+      member: officers.map((officer) => ({
+        "@type": "Person",
+        name: officer.name,
+        jobTitle: officer.jobTitle,
+        ...(officer.image ? { image: `${site.url}${officer.image}` } : {}),
+      })),
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${site.url}/#website`,
+      name: site.nameTitle,
+      alternateName: [...site.alsoKnownAs],
+      url: site.url,
+      inLanguage: ["en-IN", "hi-IN"],
+      publisher: { "@id": orgId },
+      copyrightHolder: { "@id": orgId },
+    },
   ],
-  member: officers.map((officer) => ({
-    "@type": "Person",
-    name: officer.name,
-    jobTitle: officer.jobTitle,
-    ...(officer.image ? { image: `${site.url}${officer.image}` } : {}),
-  })),
 };

@@ -22,16 +22,16 @@ export function HomeView({ lang }: { lang: Lang }) {
       link: t.promises.studentLink,
     },
     {
-      image: "/images/women.jpg",
-      alt: lang === "hi" ? "साड़ी में एक वृद्ध महिला गाँव की पगडंडी पर चल रही हैं" : "An older woman in a sari walking a village path",
-      title: t.promises.womanTitle,
-      text: t.promises.womanText,
-      href: `${base}/work#women`,
-      link: t.promises.womanLink,
+      image: "/images/education-study.jpg",
+      alt: lang === "hi" ? "सीढ़ियों पर बैठकर किताबें पढ़ते भारतीय बच्चे" : "Indian children reading books together on stone steps",
+      title: t.promises.kitsTitle,
+      text: t.promises.kitsText,
+      href: `${base}/work#students`,
+      link: t.promises.kitsLink,
     },
     {
       image: "/images/community.jpg",
-      alt: lang === "hi" ? "साड़ियों में बैठी महिलाओं का एक जमावड़ा" : "A gathering of women in saris sitting together",
+      alt: lang === "hi" ? "भारतीय कक्षा में साथ पढ़ती छात्राएँ" : "Girls learning together in an Indian classroom",
       title: t.promises.communityTitle,
       text: t.promises.communityText,
       href: `${base}/work#drives`,
@@ -275,7 +275,7 @@ function localLines(text: string) {
 
 function factHref(base: string, index: number) {
   if (index === 0) return `${base}/work#students`;
-  if (index === 1) return `${base}/work#women`;
+  if (index === 1) return `${base}/work#students`;
   if (index === 2) return `${base}/work#drives`;
   return `${base}/about`;
 }
@@ -303,7 +303,8 @@ function FactIcon({ index }: { index: number }) {
   if (index === 1) {
     return (
       <svg {...props}>
-        <path d="M12 19s-6-3.7-6-8a3.4 3.4 0 0 1 6-2 3.4 3.4 0 0 1 6 2c0 4.3-6 8-6 8z" />
+        <path d="M4 5h7v14l-3.5-2L4 19V5z" />
+        <path d="M13 5h7v14l-3.5-2L13 19V5z" />
       </svg>
     );
   }

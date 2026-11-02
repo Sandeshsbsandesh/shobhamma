@@ -7,7 +7,7 @@ import { copy } from "@/lib/copy";
 import { prefix } from "@/lib/paths";
 import { site } from "@/lib/site";
 
-const REASON_IDS = ["student", "woman", "volunteer", "partner", "drive", "other"] as const;
+const REASON_IDS = ["student", "volunteer", "partner", "drive", "other"] as const;
 
 type ReasonId = (typeof REASON_IDS)[number];
 

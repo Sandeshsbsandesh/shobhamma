@@ -20,11 +20,11 @@ export function VisionMission({ lang }: { lang: Lang }) {
           />
           <img
             className="mv-photo mv-photo-main"
-            src="/images/vision-care.jpg"
+            src="/images/education-study.jpg"
             alt={
               lang === "hi"
-                ? "नारंगी साड़ी में बैठी एक वृद्ध महिला"
-                : "An older woman in an orange sari sitting outdoors"
+                ? "सीढ़ियों पर बैठकर किताबें पढ़ते भारतीय बच्चे"
+                : "Indian children reading books together on stone steps"
             }
           />
           <p className="mv-badge">

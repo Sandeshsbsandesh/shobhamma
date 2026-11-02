@@ -7,7 +7,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Shobhaamma Charitable Foundation",
     short_name: "Shobhamma",
     description:
-      "Shobhaamma Charitable Foundation (Shobhamma, SCF) helps students who cannot afford school and elderly women who need care.",
+      "Shobhaamma Charitable Foundation (Shobhamma, SCF) helps children and students who cannot afford school.",
     start_url: "/",
     display: "standalone",
     background_color: "#f4efe6",

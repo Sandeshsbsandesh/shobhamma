@@ -14,13 +14,6 @@ export function WorkView({ lang }: { lang: Lang }) {
       image: "/images/students.jpg",
       alt: lang === "hi" ? "भारतीय कक्षा में वर्दी पहनकर लिखते विद्यार्थी" : "Students in uniform writing at desks in an Indian classroom",
     },
-    {
-      ...t.women,
-      id: "women",
-      about: "woman",
-      image: "/images/women.jpg",
-      alt: lang === "hi" ? "साड़ी में एक वृद्ध महिला गाँव की पगडंडी पर चल रही हैं" : "An older woman in a sari walking a village path",
-    },
     { ...t.community, id: "drives", about: "drive", image: "", alt: "" },
   ];
 

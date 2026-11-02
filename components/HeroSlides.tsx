@@ -4,9 +4,8 @@ import { useEffect, useState } from "react";
 
 const slides = [
   { src: "/images/hero.jpg", pos: "center 30%" },
-  { src: "/images/hero-mobile.jpg", pos: "center 22%", girl: true },
+  { src: "/images/education-study.jpg", pos: "center 40%" },
   { src: "/images/students.jpg", pos: "center 62%" },
-  { src: "/images/women.jpg", pos: "center 42%" },
   { src: "/images/community.jpg", pos: "center 48%" },
 ];
 
@@ -28,7 +27,6 @@ export function HeroSlides() {
           key={slide.src}
           src={slide.src}
           alt=""
-          className={slide.girl ? "slide-girl" : undefined}
           data-on={i === index ? "true" : "false"}
           style={{ ["--pos" as string]: slide.pos }}
         />

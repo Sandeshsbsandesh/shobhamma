@@ -14,6 +14,13 @@ const PATHS = {
 
 export type PageKey = keyof typeof PATHS;
 
+const ogImage = {
+  url: "/images/education-study.jpg",
+  width: 1600,
+  height: 900,
+  alt: "Shobhaamma Charitable Foundation — education for children and students",
+};
+
 export function metadataFor(lang: Lang, key: PageKey): Metadata {
   const meta = copy[lang].meta[key];
   const stem = PATHS[key];
@@ -24,8 +31,30 @@ export function metadataFor(lang: Lang, key: PageKey): Metadata {
   return {
     title: { absolute: meta.title },
     description: meta.description,
-    keywords: [...site.alsoKnownAs],
+    keywords: [
+      site.nameTitle,
+      site.name,
+      ...site.alsoKnownAs,
+      "education charity India",
+      "student scholarship Patna",
+      "charitable foundation Bihar",
+    ],
     applicationName: site.nameTitle,
+    authors: [{ name: site.nameTitle, url: site.url }],
+    creator: site.nameTitle,
+    publisher: site.nameTitle,
+    category: "nonprofit",
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+        "max-video-preview": -1,
+      },
+    },
     alternates: {
       canonical,
       languages: {
@@ -38,14 +67,16 @@ export function metadataFor(lang: Lang, key: PageKey): Metadata {
       title: meta.title,
       description: meta.description,
       url: canonical,
-      siteName: "Shobhaamma Charitable Foundation",
+      siteName: site.nameTitle,
       locale: lang === "hi" ? "hi_IN" : "en_IN",
       type: "website",
+      images: [ogImage],
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       title: meta.title,
       description: meta.description,
+      images: [ogImage.url],
     },
   };
 }
