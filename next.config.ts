@@ -1,8 +1,9 @@
 import type { NextConfig } from "next";
+import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
 
 const nextConfig: NextConfig = {
-  // API routes (Razorpay create-order / verify) need a Node host.
-  // Do not use output: "export" while donations use order + signature verify.
+  // API routes (Razorpay create-order / verify) need a Node-compatible host.
+  // Deploy with OpenNext on Cloudflare Workers (not static Pages `out/`).
   trailingSlash: true,
   poweredByHeader: false,
   reactStrictMode: true,
@@ -10,3 +11,5 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+initOpenNextCloudflareForDev();
