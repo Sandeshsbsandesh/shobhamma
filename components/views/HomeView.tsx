@@ -145,7 +145,7 @@ export function HomeView({ lang }: { lang: Lang }) {
           </div>
           <div className="sphere-grid">
             {spheres.map((item, index) => (
-              <article className="sphere" key={item.href}>
+              <article className="sphere" key={`${item.title}-${index}`}>
                 <img src={item.image} alt={item.alt} />
                 <div className="sphere-body">
                   <p className="index">0{index + 1}</p>

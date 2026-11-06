@@ -19,7 +19,7 @@ export function SupportView({ lang }: { lang: Lang }) {
               <p className="lede section-lede">{t.lede}</p>
             </div>
           </div>
-          <DonateForm lang={lang} />
+          <DonateForm lang={lang} razorpayKey={process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID ?? ""} />
           <div className="support-grid">
             {t.paths.map((path) => (
               <article key={path.index}>
