@@ -186,7 +186,7 @@ export const en = {
     ],
     recordTitle: "Registration",
     recordNote:
-      "These details show who we are. 80G and 12A certificates are not issued yet. When they are, they will be published here.",
+      "These details show who we are. We are 80G and 12A certified.",
   },
   work: {
     kicker: "Our work",
@@ -281,7 +281,7 @@ export const en = {
       pan: "PAN CARD NO*",
       panHelp: "If you do not have a PAN card, please enter your Aadhaar number.",
       aadhaar: "Aadhaar Card No*",
-      idNote: "80G tax-exemption certificates are not issued yet. PAN or Aadhaar helps us keep a clear donor record.",
+      idNote: "We are 80G and 12A certified. PAN or Aadhaar helps us keep a clear donor record.",
       genderLabel: "Gender",
       genders: [
         { id: "male", label: "Male" },
@@ -614,7 +614,7 @@ export const hi: typeof en = {
     ],
     recordTitle: "पंजीकरण",
     recordNote:
-      "इन विवरणों से आप जान सकते हैं कि हम कौन हैं। 80जी और 12ए प्रमाणपत्र अभी जारी नहीं हुए हैं। जब होंगे, वे यहाँ दिखाए जाएँगे।",
+      "इन विवरणों से आप जान सकते हैं कि हम कौन हैं। हम 80जी और 12ए प्रमाणित हैं।",
   },
   work: {
     kicker: "हमारा काम",
@@ -709,7 +709,7 @@ export const hi: typeof en = {
       pan: "पैन कार्ड नं.*",
       panHelp: "यदि पैन कार्ड नहीं है, तो आधार नंबर लिखें।",
       aadhaar: "आधार कार्ड नं.*",
-      idNote: "80जी कर-छूट प्रमाणपत्र अभी जारी नहीं हुए हैं। पैन या आधार से दानकर्ता का साफ़ रिकॉर्ड रखा जाता है।",
+      idNote: "हम 80जी और 12ए प्रमाणित हैं। पैन या आधार से दानकर्ता का साफ़ रिकॉर्ड रखा जाता है।",
       genderLabel: "लिंग",
       genders: [
         { id: "male", label: "पुरुष" },

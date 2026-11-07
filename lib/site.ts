@@ -1,7 +1,7 @@
 /**
  * Public facts supplied by the foundation.
- * Telephone, portraits, bank account, and 80G/12A certificates
- * are omitted until the office provides them.
+ * Telephone, portraits, and bank account are omitted until the office provides them.
+ * The foundation is 80G and 12A certified.
  */
 export const site = {
   name: "SHOBHAAMMA CHARITABLE FOUNDATION",
