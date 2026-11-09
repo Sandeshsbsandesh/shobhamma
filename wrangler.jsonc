@@ -4,6 +4,8 @@
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-11-06",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  // Keep dashboard Variables/Secrets across `wrangler deploy` (otherwise Razorpay keys get wiped).
+  "keep_vars": true,
   "assets": {
     "directory": ".open-next/assets",
     "binding": "ASSETS"
