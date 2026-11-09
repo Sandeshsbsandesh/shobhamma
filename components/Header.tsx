@@ -88,7 +88,6 @@ export function Header() {
       ],
     },
     { label: t.nav.partner, href: `${base}/contact?about=partner`, items: undefined },
-    { label: t.nav.contact, href: `${base}/contact`, items: undefined },
   ];
 
   function active(href: string) {

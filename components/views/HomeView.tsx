@@ -114,15 +114,17 @@ export function HomeView({ lang }: { lang: Lang }) {
         </svg>
       </section>
 
-      <div className="wrap stats-wrap">
-        <dl className="stats">
-          {s.stats.map((item) => (
-            <div key={item.label}>
-              <dt>{item.value}</dt>
-              <dd>{item.label}</dd>
-            </div>
-          ))}
-        </dl>
+      <div className="focus-band">
+        <div className="wrap">
+          <nav className="focus-tabs" aria-label={s.spheresTitle}>
+            {s.stats.map((item) => (
+              <Link key={item.value} className="focus-tab" href={`${base}${item.href}`}>
+                <span className="focus-title">{item.value}</span>
+                <span className="focus-text">{item.label}</span>
+              </Link>
+            ))}
+          </nav>
+        </div>
       </div>
 
       <section className="section section-after-stats band-paper">
@@ -139,22 +141,6 @@ export function HomeView({ lang }: { lang: Lang }) {
               </div>
               <p className="lede section-lede">{t.work.lede}</p>
             </div>
-          </div>
-          <div className="fact-grid">
-            {s.stats.slice(0, 3).map((item, index) => (
-              <Link className={`fact fact-${index}`} href={factHref(base, index)} key={item.label}>
-                <span className="fact-icon" aria-hidden="true">
-                  <FactIcon index={index} />
-                </span>
-                <span className="fact-copy">
-                  <strong>{item.value}</strong>
-                  <span>{item.label}</span>
-                </span>
-                <span className="fact-go" aria-hidden="true">
-                  <Arrow />
-                </span>
-              </Link>
-            ))}
           </div>
           <div className="sphere-grid">
             {spheres.map((item, index) => (
@@ -284,59 +270,6 @@ function localLines(text: string) {
   const parts = text.split(". ");
   if (parts.length === 2) return [`${parts[0]}.`, parts[1]];
   return [text];
-}
-
-function factHref(base: string, index: number) {
-  if (index === 0) return `${base}/work#students`;
-  if (index === 1) return `${base}/work#students`;
-  if (index === 2) return `${base}/work#drives`;
-  return `${base}/about`;
-}
-
-function FactIcon({ index }: { index: number }) {
-  const props = {
-    width: 20,
-    height: 20,
-    viewBox: "0 0 24 24",
-    fill: "none",
-    stroke: "currentColor",
-    strokeWidth: 1.7,
-    strokeLinecap: "round" as const,
-    strokeLinejoin: "round" as const,
-  };
-  if (index === 0) {
-    return (
-      <svg {...props}>
-        <path d="M3 10.5 12 4l9 6.5" />
-        <path d="M6 10v8h12v-8" />
-        <path d="M10 18v-4h4v4" />
-      </svg>
-    );
-  }
-  if (index === 1) {
-    return (
-      <svg {...props}>
-        <path d="M4 5h7v14l-3.5-2L4 19V5z" />
-        <path d="M13 5h7v14l-3.5-2L13 19V5z" />
-      </svg>
-    );
-  }
-  if (index === 2) {
-    return (
-      <svg {...props}>
-        <circle cx="9" cy="9" r="2.4" />
-        <circle cx="16" cy="10" r="2" />
-        <path d="M4.5 18.5a4.6 4.6 0 0 1 9 0" />
-        <path d="M14 18.5a3.6 3.6 0 0 1 5.5-3" />
-      </svg>
-    );
-  }
-  return (
-    <svg {...props}>
-      <rect x="4" y="5" width="16" height="15" rx="2" />
-      <path d="M8 3.5V7M16 3.5V7M4 10h16" />
-    </svg>
-  );
 }
 
 function InvolveIcon({ id }: { id: string }) {
