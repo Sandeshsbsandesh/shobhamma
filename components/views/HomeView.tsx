@@ -14,20 +14,12 @@ export function HomeView({ lang }: { lang: Lang }) {
   const cls = lang === "hi" ? "lang-hi" : "lang-en";
   const spheres = [
     {
-      image: "/images/students.jpg",
-      alt: lang === "hi" ? "भारतीय कक्षा में वर्दी पहनकर लिखते विद्यार्थी" : "Students in uniform writing at desks in an Indian classroom",
+      image: "/images/education-study.jpg",
+      alt: lang === "hi" ? "सीढ़ियों पर बैठकर किताबें पढ़ते भारतीय बच्चे" : "Indian children reading books together on stone steps",
       title: t.promises.studentTitle,
       text: t.promises.studentText,
       href: `${base}/work#students`,
       link: t.promises.studentLink,
-    },
-    {
-      image: "/images/education-study.jpg",
-      alt: lang === "hi" ? "सीढ़ियों पर बैठकर किताबें पढ़ते भारतीय बच्चे" : "Indian children reading books together on stone steps",
-      title: t.promises.kitsTitle,
-      text: t.promises.kitsText,
-      href: `${base}/work#students`,
-      link: t.promises.kitsLink,
     },
     {
       image: "/images/community.jpg",
@@ -36,6 +28,25 @@ export function HomeView({ lang }: { lang: Lang }) {
       text: t.promises.communityText,
       href: `${base}/work#drives`,
       link: t.promises.communityLink,
+    },
+    {
+      image: "/images/women-skill-sewing.jpg",
+      alt:
+        lang === "hi"
+          ? "प्रशिक्षण कार्यशाला में सिलाई और सौंदर्य कौशल सीखती महिलाएँ"
+          : "Women learning stitching and beauty skills in a training workshop",
+      title: t.promises.womenTitle,
+      text: t.promises.womenText,
+      href: `${base}/work/women-skill-development`,
+      link: t.promises.womenLink,
+    },
+    {
+      image: "/images/environment-solar.jpg",
+      alt: lang === "hi" ? "शहर के पास स्वच्छ ऊर्जा पैदा करते सौर पैनल" : "Solar panels generating clean energy near a city skyline",
+      title: t.promises.environmentTitle,
+      text: t.promises.environmentText,
+      href: `${base}/work/environment-development`,
+      link: t.promises.environmentLink,
     },
   ];
 
@@ -89,11 +100,13 @@ export function HomeView({ lang }: { lang: Lang }) {
                 <Arrow />
               </Link>
             </div>
-            <p className="hero-local" lang={lang === "hi" ? "en" : "hi"}>
-              {localLines(s.local).map((line) => (
-                <span key={line}>{line}</span>
-              ))}
-            </p>
+            {s.local.trim() ? (
+              <p className="hero-local" lang={lang === "hi" ? "en" : "hi"}>
+                {localLines(s.local).map((line) => (
+                  <span key={line}>{line}</span>
+                ))}
+              </p>
+            ) : null}
           </div>
         </div>
         <svg className="hero-wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
@@ -230,7 +243,7 @@ export function HomeView({ lang }: { lang: Lang }) {
             <p className="lede section-lede">{t.support.lede}</p>
           </div>
           <div className="involve-grid">
-            {t.support.paths.slice(0, 3).map((path) => (
+            {t.support.paths.map((path) => (
               <article key={path.index}>
                 <span className="involve-icon">
                   <InvolveIcon id={path.links[0].id} />
@@ -351,6 +364,17 @@ function InvolveIcon({ id }: { id: string }) {
         <path d="M8 12.5V11a4 4 0 0 1 8 0v1.5" />
         <path d="M4.5 12.5h3.2L9 19.5H7.2A2.2 2.2 0 0 1 5 17.3v-4.8z" />
         <path d="M19.5 12.5h-3.2L15 19.5h1.8a2.2 2.2 0 0 0 2.2-2.2v-4.8z" />
+      </svg>
+    );
+  }
+  if (id === "partner") {
+    return (
+      <svg {...props}>
+        <path d="M8 12h8" />
+        <path d="M10 8.5 8 12l2 3.5" />
+        <path d="M14 8.5 16 12l-2 3.5" />
+        <circle cx="6.5" cy="12" r="2.2" />
+        <circle cx="17.5" cy="12" r="2.2" />
       </svg>
     );
   }

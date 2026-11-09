@@ -1,6 +1,6 @@
 /**
  * Public facts supplied by the foundation.
- * Telephone, portraits, and bank account are omitted until the office provides them.
+ * Bank account details are omitted until the office provides them.
  * The foundation is 80G and 12A certified.
  */
 export const site = {
@@ -20,6 +20,8 @@ export const site = {
     "शोभाअम्मा चैरिटेबल फाउंडेशन",
   ],
   email: "shobhaammacharitablefoundation@gmail.com",
+  phone: "+91 9386730222",
+  phoneHref: "tel:+919386730222",
   url: "https://shobhaamma.com",
   registration: "ABNCS7300JE20241",
   foundedISO: "2024-06-21",
@@ -74,6 +76,7 @@ export const jsonLd = {
       alternateName: [...site.alsoKnownAs],
       url: site.url,
       email: site.email,
+      telephone: site.phoneHref.replace("tel:", ""),
       logo: `${site.url}/images/logo.png`,
       image: `${site.url}/images/education-study.jpg`,
       foundingDate: site.foundedISO,

@@ -57,7 +57,16 @@ export function Header() {
         { href: `${base}/about#record`, label: t.about.recordTitle },
       ],
     },
-    { label: t.nav.work, href: `${base}/work`, items: undefined },
+    {
+      label: t.nav.work,
+      href: `${base}/work`,
+      items: [
+        { href: `${base}/work#students`, label: t.work.students.title },
+        { href: `${base}/work#drives`, label: t.work.community.title },
+        { href: `${base}/work/women-skill-development`, label: t.work.womenSkills.title },
+        { href: `${base}/work/environment-development`, label: t.work.environment.title },
+      ],
+    },
     {
       label: t.nav.support,
       href: `${base}/support`,
@@ -65,8 +74,20 @@ export function Header() {
         { href: `${base}/support#donate`, label: t.support.donate.submit },
         { href: `${base}/contact?about=student`, label: t.support.paths[1].title },
         { href: `${base}/contact?about=volunteer`, label: t.support.paths[2].title },
+        { href: `${base}/contact?about=partner`, label: t.nav.partner },
       ],
     },
+    {
+      label: t.nav.activities,
+      href: `${base}/activities`,
+      items: [
+        { href: `${base}/media`, label: t.activities.media },
+        { href: `${base}/announcements`, label: t.activities.announcements },
+        { href: `${base}/grievances`, label: t.activities.grievances },
+        { href: `${base}/others`, label: t.activities.others },
+      ],
+    },
+    { label: t.nav.partner, href: `${base}/contact?about=partner`, items: undefined },
     { label: t.nav.contact, href: `${base}/contact`, items: undefined },
   ];
 

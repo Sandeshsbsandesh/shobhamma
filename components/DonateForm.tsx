@@ -201,6 +201,8 @@ export function DonateForm({ lang, razorpayKey }: { lang: Lang; razorpayKey: str
         education: "Education support",
         supplies: "Books and uniforms",
         community: "Community programmes",
+        women: "Women skill development",
+        environment: "Environment development",
         general: "Wherever the need is",
       } as Record<string, string>)[project] || projectLabel;
 

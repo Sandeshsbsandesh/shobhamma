@@ -3,7 +3,21 @@ import { site } from "@/lib/site";
 
 export const dynamic = "force-static";
 
-const pages = ["", "/about", "/work", "/people", "/support", "/contact"] as const;
+const pages = [
+  "",
+  "/about",
+  "/work",
+  "/people",
+  "/support",
+  "/contact",
+  "/activities",
+  "/media",
+  "/announcements",
+  "/grievances",
+  "/others",
+  "/work/women-skill-development",
+  "/work/environment-development",
+] as const;
 
 function url(path: string) {
   if (path === "" || path === "/") return `${site.url}/`;

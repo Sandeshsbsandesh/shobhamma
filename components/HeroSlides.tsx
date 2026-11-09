@@ -5,7 +5,11 @@ import { useEffect, useState } from "react";
 const slides = [
   { src: "/images/hero.jpg", pos: "center 30%" },
   { src: "/images/education-study.jpg", pos: "center 40%" },
+  { src: "/images/women-skill-sewing.jpg", pos: "center 35%" },
+  { src: "/images/environment-solar.jpg", pos: "center 45%" },
   { src: "/images/students.jpg", pos: "center 62%" },
+  { src: "/images/women-skill-handwork.png", pos: "center 40%" },
+  { src: "/images/environment-farming.jpg", pos: "center 42%" },
   { src: "/images/community.jpg", pos: "center 48%" },
 ];
 

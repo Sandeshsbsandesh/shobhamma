@@ -10,6 +10,13 @@ const PATHS = {
   people: "/people",
   support: "/support",
   contact: "/contact",
+  activities: "/activities",
+  media: "/media",
+  announcements: "/announcements",
+  grievances: "/grievances",
+  others: "/others",
+  womenSkills: "/work/women-skill-development",
+  environment: "/work/environment-development",
 } as const;
 
 export type PageKey = keyof typeof PATHS;

@@ -13,7 +13,17 @@ export const en = {
     work: {
       title: "Our work | Shobhaamma Charitable Foundation",
       description:
-        "Shobhaamma Charitable Foundation helps children and students stay in school with fees, books, uniforms, and community education programmes.",
+        "Shobhaamma Charitable Foundation programmes: education support, community work, women skill development, and environment development.",
+    },
+    womenSkills: {
+      title: "Women skill development | Shobhaamma Charitable Foundation",
+      description:
+        "Women skill development programmes by Shobhaamma Charitable Foundation — training that helps women earn and support their families.",
+    },
+    environment: {
+      title: "Environment development | Shobhaamma Charitable Foundation",
+      description:
+        "Environment development programmes by Shobhaamma Charitable Foundation — planting, cleanliness, and care for local surroundings.",
     },
     people: {
       title: "Our team | Shobhaamma Charitable Foundation",
@@ -28,7 +38,28 @@ export const en = {
     contact: {
       title: "Contact | Shobhaamma Charitable Foundation",
       description:
-        "Contact Shobhaamma Charitable Foundation at Gagan Apartment, Exhibition Road, Patna 800001, Bihar. Email shobhaammacharitablefoundation@gmail.com.",
+        "Contact Shobhaamma Charitable Foundation at Gagan Apartment, Exhibition Road, Patna 800001, Bihar. Phone +91 9386730222. Email shobhaammacharitablefoundation@gmail.com.",
+    },
+    activities: {
+      title: "Activities | Shobhaamma Charitable Foundation",
+      description:
+        "Media, announcements, grievances, and other updates from Shobhaamma Charitable Foundation.",
+    },
+    media: {
+      title: "Media | Shobhaamma Charitable Foundation",
+      description: "Media and press information from Shobhaamma Charitable Foundation.",
+    },
+    announcements: {
+      title: "Announcements | Shobhaamma Charitable Foundation",
+      description: "Official announcements from Shobhaamma Charitable Foundation.",
+    },
+    grievances: {
+      title: "Grievances | Shobhaamma Charitable Foundation",
+      description: "How to raise a grievance with Shobhaamma Charitable Foundation.",
+    },
+    others: {
+      title: "Other notices | Shobhaamma Charitable Foundation",
+      description: "Other notices and public information from Shobhaamma Charitable Foundation.",
     },
   },
   nav: {
@@ -36,6 +67,8 @@ export const en = {
     work: "Our work",
     people: "Team",
     support: "Support",
+    partner: "Partner with Us",
+    activities: "Activities",
     contact: "Contact",
     write: "Write to us",
     menu: "Menu",
@@ -53,20 +86,20 @@ export const en = {
     eyebrow: "Established 21 June 2024",
     line1: "A child who should be in school.",
     line2: "A student without the means to study.",
-    deck: "Shobhaamma Charitable Foundation supports children and students who cannot afford fees, books, or school supplies.",
+    deck: "Creating lasting change through quality education for children, skill development for women, and a greener environment for generations to come.",
     primary: "Support our work",
     secondary: "Who we are",
     plateCaption: "Since 2024",
     plateMeta: "21 June 2024",
   },
   showcase: {
-    place: "Shobhaamma Charitable Foundation · helping children stay in school since 2024",
-    title: "Education for every child.\nA chance to stay in school.",
-    local: "शोभा का अर्थ कांति है। अम्मा का अर्थ माँ है।",
+    place: "Shobhaamma Charitable Foundation",
+    title: "Empowering Lives.\nEducating Futures.\nProtecting Tomorrow.",
+    local: "",
     stats: [
-      { value: "Education", label: "Fees, books, and school supplies" },
-      { value: "Students", label: "Help so a child can stay in school" },
-      { value: "Community", label: "Camps that bring people together" },
+      { value: "Education", label: "Quality learning for every child" },
+      { value: "Women Empowerment", label: "Skills that help women earn with dignity" },
+      { value: "Environment", label: "A greener tomorrow for every generation" },
       { value: "2024", label: "Founded on 21 June" },
     ],
     spheresKicker: "Our work",
@@ -85,7 +118,7 @@ export const en = {
   },
   promises: {
     kicker: "Our programmes",
-    title: "Education for children and students",
+    title: "Programmes that support people and place",
     studentTitle: "Education support",
     studentText:
       "School and college fees, books, and uniforms for students whose families cannot afford them.",
@@ -97,12 +130,18 @@ export const en = {
     communityTitle: "Community programmes",
     communityText: "Camps and gatherings where people give time, share, and support local students.",
     communityLink: "See community programmes",
+    womenTitle: "Women skill development",
+    womenText: "Training in practical skills so women can earn, learn, and support their families.",
+    womenLink: "See women skill development",
+    environmentTitle: "Environment development",
+    environmentText: "Planting, cleanliness drives, and care for the places where our communities live.",
+    environmentLink: "See environment development",
   },
   story: {
     kicker: "Our story",
-    title: "Shobha is grace. Amma is mother.",
+    title: "Our work is for every child who should be in school.",
     body: [
-      "The name holds both. Our work is for a child who should be in school, and a student who should not leave because the family cannot pay.",
+      "Our work is for a child who should be in school, and a student who should not leave because the family cannot pay.",
       "Shobhaamma Charitable Foundation began on 21 June 2024. Amit Kumar is chairman, Kamlesh Thakur is secretary, and Ranjeet Kumar is treasurer.",
     ],
     link: "Read our story",
@@ -152,17 +191,19 @@ export const en = {
   about: {
     kicker: "About",
     title: "About us",
-    lede: "Shobhaamma Charitable Foundation, also known as Shobhamma, Shobhamma Foundation, and SCF, was founded on 21 June 2024. We support children and students who want to study but cannot afford fees, books, or school supplies.",
+    lede: "Shobhaamma Charitable Foundation, also known as Shobhamma, Shobhamma Foundation, and SCF, was founded on 21 June 2024. We work on education, women skill development, community programmes, and environment development.",
     storyTitle: "Why we exist",
     story: [
-      "A child should not leave school because the family cannot pay. A student should not lose a year for want of books or a uniform.",
+      "A child should stay in school. A woman should have a skill to earn. A neighbourhood should have cleaner air, greener ground, and care for the place it lives in.",
     ],
     visionTitle: "Vision",
-    vision: "A society where every child can learn and every student can stay in school.",
+    vision:
+      "A society where every child can learn, every woman can build a skill to earn with dignity, and every community can care for its environment.",
     missionTitle: "Mission",
-    mission: "To help children and students continue their education when the family cannot meet the cost.",
-    mvSeal: "Education first",
-    mvRibbon: "School for every child",
+    mission:
+      "To support education when families cannot meet the cost, train women in practical skills, run community programmes, and advance local environment development.",
+    mvSeal: "People and place",
+    mvRibbon: "Education · Skills · Environment",
     mvMark: "2024",
     mvMarkLabel: "Founded",
     valuesTitle: "What we stand for",
@@ -172,12 +213,12 @@ export const en = {
         text: "Fees, books, and supplies so a student can stay in school.",
       },
       {
-        title: "Opportunity",
-        text: "A fair chance for a child whose family cannot meet school costs alone.",
+        title: "Women’s skills",
+        text: "Practical training so women can learn a trade and support their families.",
       },
       {
-        title: "Respect",
-        text: "We keep the privacy of the people we help, and we do not publish their photographs.",
+        title: "Environment",
+        text: "Planting, cleanliness, and care for the places where our communities live.",
       },
       {
         title: "Accountability",
@@ -185,13 +226,13 @@ export const en = {
       },
     ],
     recordTitle: "Registration",
-    recordNote:
-      "These details show who we are. We are 80G and 12A certified.",
+    recordNote: "We are 80G and 12A certified.",
   },
   work: {
     kicker: "Our work",
     title: "What we do",
-    lede: "We help children and students continue their education, and bring people together through community programmes that support learning.",
+    lede: "We support education, community programmes, women skill development, and environment development.",
+    openPage: "Open programme page",
     students: {
       index: "01",
       title: "Education support",
@@ -227,6 +268,71 @@ export const en = {
         "How we can reply.",
       ],
       link: "Plan a community programme",
+    },
+    womenSkills: {
+      index: "03",
+      title: "Women skill development",
+      intro:
+        "Practical skill training so women can learn a trade, earn with dignity, and support their households.",
+      canTitle: "What we provide",
+      can: [
+        "Short skill batches such as stitching, basic trades, or livelihood training.",
+        "A place to learn with guidance from the foundation’s team.",
+        "Help connecting learners to local work where possible.",
+      ],
+      askTitle: "How to tell us",
+      ask: [
+        "The woman’s name and the skill she wants to learn.",
+        "Where she lives, and when she can attend.",
+        "A phone number or email where we can reply.",
+      ],
+      link: "Write about women skill training",
+      pageBody: [
+        "Women skill development is one of our core programmes. We organise practical training so women can learn useful skills, build confidence, and find ways to earn.",
+        "Batches may include stitching, embroidery, and other livelihood skills suited to the local area. Each batch is kept small enough for personal attention.",
+        "If you know a woman who wants to join, or if you can help host a batch, write to us. We will reply from the foundation’s own email.",
+      ],
+      challengesTitle: "",
+      challenges: [] as { title: string; text: string }[],
+    },
+    environment: {
+      index: "04",
+      title: "Environment development",
+      intro:
+        "Planting, cleanliness, and care for the streets, schools, and neighbourhoods where our communities live.",
+      canTitle: "What we provide",
+      can: [
+        "Tree planting and sapling care with local volunteers.",
+        "Cleanliness drives around schools and public spaces.",
+        "Simple awareness sessions on caring for the local environment.",
+      ],
+      askTitle: "How to tell us",
+      ask: [
+        "The place you want to improve, and what is needed.",
+        "When you have in mind, even if the date is not fixed.",
+        "How we can reply.",
+      ],
+      link: "Plan an environment programme",
+      pageBody: [
+        "Environment development means caring for the places people live, study, and gather. We work with neighbours on planting, cleanliness, and simple local improvements.",
+        "A drive may be a morning of planting saplings, cleaning a school compound, or teaching children how to look after a green patch.",
+        "If your street, school, or group wants to organise a drive with us, write to the foundation. We will reply and plan what we can support.",
+      ],
+      challengesTitle: "Key Environmental Challenges",
+      challenges: [
+        {
+          title: "Air & Water Pollution",
+          text: "Rapid urbanization, industrial expansion, and heavy fossil fuel use drive severe air pollution across major cities and the Indo-Gangetic plains. Untreated sewage and industrial waste also degrade rivers, lakes, and groundwater.",
+        },
+        {
+          title: "Land & Ecosystem Degradation",
+          text: "High population and livestock density on a small fraction of global land lead to soil erosion, deforestation, and habitat loss.",
+        },
+        {
+          title: "Climate Vulnerability",
+          text: "India faces severe heatwaves, droughts, unpredictable monsoons, and flood risks, relying heavily on agricultural adaptation.",
+        },
+      ],
     },
     limitsTitle: "Our promise",
     limits: [
@@ -281,7 +387,7 @@ export const en = {
       pan: "PAN CARD NO*",
       panHelp: "If you do not have a PAN card, please enter your Aadhaar number.",
       aadhaar: "Aadhaar Card No*",
-      idNote: "We are 80G and 12A certified. PAN or Aadhaar helps us keep a clear donor record.",
+      idNote: "We are 80G and 12A certified.",
       genderLabel: "Gender",
       genders: [
         { id: "male", label: "Male" },
@@ -315,6 +421,8 @@ export const en = {
         { id: "education", label: "Education support" },
         { id: "supplies", label: "Books and uniforms" },
         { id: "community", label: "Community programmes" },
+        { id: "women", label: "Women skill development" },
+        { id: "environment", label: "Environment development" },
         { id: "general", label: "Wherever the need is" },
       ],
       submit: "Donate now",
@@ -372,19 +480,20 @@ export const en = {
       },
       {
         index: "04",
-        title: "Partner",
-        text: "Schools and community groups are welcome to work with us. Write to the secretary.",
-        links: [{ id: "partner", label: "Write as a partner" }],
+        title: "Partner with Us",
+        text: "Schools, companies, and community groups are welcome to partner with us on education, women skill development, and environment programmes.",
+        links: [{ id: "partner", label: "Partner with Us" }],
       },
     ],
   },
   contact: {
     kicker: "Contact",
     title: "Get in touch",
-    lede: "Refer a student who needs help, offer your time, or ask a question. We reply to every message.",
-    phoneNote: "Email is the way to reach us. We reply to every message.",
+    lede: "Refer a student who needs help, offer your time, partner with us, or ask a question. We reply to every message.",
+    phoneNote: "Call or email us. We reply to every message.",
     addressTitle: "Address",
     emailTitle: "Email",
+    phoneTitle: "Phone",
     form: {
       name: "Your name",
       email: "Email",
@@ -412,10 +521,70 @@ export const en = {
       reasons: [
         { id: "student", label: "I am referring a student" },
         { id: "volunteer", label: "I want to volunteer" },
-        { id: "partner", label: "I am writing as a school or group" },
+        { id: "partner", label: "Partner with Us" },
         { id: "drive", label: "I want to help with a community drive" },
+        { id: "women", label: "Women skill development" },
+        { id: "environment", label: "Environment development" },
         { id: "other", label: "Something else" },
       ],
+    },
+  },
+  activities: {
+    kicker: "Activities",
+    title: "Foundation activities",
+    lede: "Public updates, media, announcements, and a place to raise a concern.",
+    media: "Media",
+    announcements: "Announcements",
+    grievances: "Grievances",
+    others: "Others",
+    write: "Write to us",
+    pages: {
+      media: {
+        kicker: "Media",
+        title: "Media",
+        lede: "Press and media requests for Shobhaamma Charitable Foundation.",
+        body: [] as string[],
+        images: [
+          {
+            src: "/images/media-handwork.png",
+            alt: "Women learning handwork skills together at a foundation programme",
+          },
+          {
+            src: "/images/media-digital-skills.png",
+            alt: "Young women learning digital skills at a computer",
+          },
+        ],
+      },
+      announcements: {
+        kicker: "Announcements",
+        title: "Announcements",
+        lede: "Official notices from the foundation will appear here.",
+        body: [
+          "Programme dates, application windows, and public notices will be posted on this page.",
+          "For the latest update in the meantime, write to us or check this page again soon.",
+        ],
+        images: [] as { src: string; alt: string }[],
+      },
+      grievances: {
+        kicker: "Grievances",
+        title: "Grievances",
+        lede: "If you have a concern about our work, use this channel.",
+        body: [
+          "Write to the foundation email with your name, contact number, and a clear note of the issue.",
+          "We read every message and reply from the foundation’s own email. Do not send money or documents to any personal UPI or inbox that uses our name.",
+        ],
+        images: [],
+      },
+      others: {
+        kicker: "Others",
+        title: "Other notices",
+        lede: "Other public information from the foundation.",
+        body: [
+          "Policy notes, event reminders, and related public information will be shared here.",
+          "If you need a specific document or clarification, write to us and we will respond.",
+        ],
+        images: [],
+      },
     },
   },
   notFound: {
@@ -441,7 +610,17 @@ export const hi: typeof en = {
     work: {
       title: "हमारा काम | शोभाअम्मा चैरिटेबल फाउंडेशन",
       description:
-        "शोभाअम्मा चैरिटेबल फाउंडेशन फीस, किताबों और सामान से बच्चों और विद्यार्थियों को स्कूल में बनाए रखने में मदद करता है।",
+        "शोभाअम्मा चैरिटेबल फाउंडेशन के कार्यक्रम: शिक्षा सहायता, सामुदायिक कार्य, महिला कौशल विकास, और पर्यावरण विकास।",
+    },
+    womenSkills: {
+      title: "महिला कौशल विकास | शोभाअम्मा चैरिटेबल फाउंडेशन",
+      description:
+        "शोभाअम्मा चैरिटेबल फाउंडेशन का महिला कौशल विकास कार्यक्रम — प्रशिक्षण जिससे महिलाएँ कमा सकें और परिवार का साथ दे सकें।",
+    },
+    environment: {
+      title: "पर्यावरण विकास | शोभाअम्मा चैरिटेबल फाउंडेशन",
+      description:
+        "शोभाअम्मा चैरिटेबल फाउंडेशन का पर्यावरण विकास कार्यक्रम — पौधरोपण, सफाई, और स्थानीय परिवेश की देखभाल।",
     },
     people: {
       title: "हमारी टीम | शोभाअम्मा चैरिटेबल फाउंडेशन",
@@ -456,7 +635,28 @@ export const hi: typeof en = {
     contact: {
       title: "संपर्क | शोभाअम्मा चैरिटेबल फाउंडेशन",
       description:
-        "शोभाअम्मा चैरिटेबल फाउंडेशन, गगन अपार्टमेंट, एग्जिबिशन रोड, पटना 800001। ईमेल shobhaammacharitablefoundation@gmail.com।",
+        "शोभाअम्मा चैरिटेबल फाउंडेशन, गगन अपार्टमेंट, एग्जिबिशन रोड, पटना 800001। फ़ोन +91 9386730222। ईमेल shobhaammacharitablefoundation@gmail.com।",
+    },
+    activities: {
+      title: "गतिविधियाँ | शोभाअम्मा चैरिटेबल फाउंडेशन",
+      description:
+        "शोभाअम्मा चैरिटेबल फाउंडेशन की मीडिया, घोषणाएँ, शिकायतें और अन्य सूचनाएँ।",
+    },
+    media: {
+      title: "मीडिया | शोभाअम्मा चैरिटेबल फाउंडेशन",
+      description: "शोभाअम्मा चैरिटेबल फाउंडेशन की मीडिया और प्रेस जानकारी।",
+    },
+    announcements: {
+      title: "घोषणाएँ | शोभाअम्मा चैरिटेबल फाउंडेशन",
+      description: "शोभाअम्मा चैरिटेबल फाउंडेशन की आधिकारिक घोषणाएँ।",
+    },
+    grievances: {
+      title: "शिकायतें | शोभाअम्मा चैरिटेबल फाउंडेशन",
+      description: "शोभाअम्मा चैरिटेबल फाउंडेशन में शिकायत कैसे दर्ज करें।",
+    },
+    others: {
+      title: "अन्य सूचनाएँ | शोभाअम्मा चैरिटेबल फाउंडेशन",
+      description: "शोभाअम्मा चैरिटेबल फाउंडेशन की अन्य सार्वजनिक सूचनाएँ।",
     },
   },
   nav: {
@@ -464,6 +664,8 @@ export const hi: typeof en = {
     work: "हमारा काम",
     people: "टीम",
     support: "सहयोग",
+    partner: "हमारे साथ सहयोग करें",
+    activities: "गतिविधियाँ",
     contact: "संपर्क",
     write: "पत्र लिखें",
     menu: "मेनू",
@@ -481,20 +683,20 @@ export const hi: typeof en = {
     eyebrow: "स्थापना 21 जून 2024",
     line1: "एक बच्चा, जिसे स्कूल में होना चाहिए।",
     line2: "एक विद्यार्थी, जिसके पास पढ़ने का साधन नहीं।",
-    deck: "शोभाअम्मा चैरिटेबल फाउंडेशन उन बच्चों और विद्यार्थियों की सहायता करता है जो फीस, किताबें या स्कूल का सामान नहीं जुटा पाते।",
+    deck: "बच्चों के लिए गुणवत्तापूर्ण शिक्षा, महिलाओं के लिए कौशल विकास, और आने वाली पीढ़ियों के लिए हरित पर्यावरण के ज़रिए स्थायी बदलाव।",
     primary: "हमारे काम में सहयोग करें",
     secondary: "हम कौन हैं",
     plateCaption: "2024 से",
     plateMeta: "21 जून 2024",
   },
   showcase: {
-    place: "शोभाअम्मा चैरिटेबल फाउंडेशन · 2024 से बच्चों को स्कूल में बनाए रखने की सहायता",
-    title: "हर बच्चे के लिए शिक्षा।\nस्कूल में बने रहने का मौका।",
-    local: "Education for every child. A chance to stay in school.",
+    place: "शोभाअम्मा चैरिटेबल फाउंडेशन",
+    title: "जीवन को सशक्त बनाना।\nभविष्य को शिक्षित करना।\nकल की रक्षा करना।",
+    local: "Empowering Lives. Educating Futures. Protecting Tomorrow.",
     stats: [
-      { value: "शिक्षा", label: "फीस, किताबें और स्कूल का सामान" },
-      { value: "विद्यार्थी", label: "ताकि बच्चा स्कूल में बना रहे" },
-      { value: "समुदाय", label: "लोगों को साथ लाने वाले शिविर" },
+      { value: "शिक्षा", label: "हर बच्चे के लिए गुणवत्तापूर्ण शिक्षा" },
+      { value: "महिला सशक्तिकरण", label: "कौशल जिससे महिलाएँ सम्मान से कमा सकें" },
+      { value: "पर्यावरण", label: "हर पीढ़ी के लिए हरित कल" },
       { value: "2024", label: "21 जून को स्थापना" },
     ],
     spheresKicker: "हमारा काम",
@@ -513,7 +715,7 @@ export const hi: typeof en = {
   },
   promises: {
     kicker: "हमारे कार्यक्रम",
-    title: "बच्चों और विद्यार्थियों के लिए शिक्षा",
+    title: "लोगों और जगह के लिए कार्यक्रम",
     studentTitle: "शिक्षा सहायता",
     studentText:
       "उन विद्यार्थियों के लिए स्कूल और कॉलेज की फीस, किताबें और गणवेश, जिनके परिवार यह खर्च नहीं उठा सकते।",
@@ -525,12 +727,18 @@ export const hi: typeof en = {
     communityTitle: "सामुदायिक कार्यक्रम",
     communityText: "ऐसे शिविर और मिलन जहाँ लोग समय देते हैं, बाँटते हैं और स्थानीय विद्यार्थियों का साथ देते हैं।",
     communityLink: "सामुदायिक कार्यक्रम देखें",
+    womenTitle: "महिला कौशल विकास",
+    womenText: "व्यावहारिक कौशल का प्रशिक्षण, ताकि महिलाएँ कमा सकें, सीख सकें और परिवार का साथ दे सकें।",
+    womenLink: "महिला कौशल विकास देखें",
+    environmentTitle: "पर्यावरण विकास",
+    environmentText: "पौधरोपण, सफाई अभियान, और उन जगहों की देखभाल जहाँ हमारे समुदाय रहते हैं।",
+    environmentLink: "पर्यावरण विकास देखें",
   },
   story: {
     kicker: "हमारी कहानी",
-    title: "शोभा का अर्थ कांति है। अम्मा का अर्थ माँ है।",
+    title: "हमारा काम उस बच्चे के लिए है जिसे स्कूल में होना चाहिए।",
     body: [
-      "नाम में दोनों बातें हैं। हमारा काम उस बच्चे के लिए है जिसे स्कूल में होना चाहिए, और उस विद्यार्थी के लिए जो इसलिए न छोड़े कि परिवार फीस नहीं भर सकता।",
+      "हमारा काम उस बच्चे के लिए है जिसे स्कूल में होना चाहिए, और उस विद्यार्थी के लिए जो इसलिए न छोड़े कि परिवार फीस नहीं भर सकता।",
       "शोभाअम्मा चैरिटेबल फाउंडेशन 21 जून 2024 को शुरू हुई। अमित कुमार अध्यक्ष हैं, कमलेश ठाकुर सचिव हैं, और रणजीत कुमार कोषाध्यक्ष हैं।",
     ],
     link: "हमारी कहानी पढ़ें",
@@ -580,17 +788,19 @@ export const hi: typeof en = {
   about: {
     kicker: "परिचय",
     title: "हमारे बारे में",
-    lede: "शोभाअम्मा चैरिटेबल फाउंडेशन, जिसे Shobhamma, Shobhamma Foundation और SCF भी कहा जाता है, की स्थापना 21 जून 2024 को हुई। हम उन बच्चों और विद्यार्थियों की सहायता करते हैं जो पढ़ना चाहते हैं पर फीस, किताबें या स्कूल का सामान नहीं जुटा पाते।",
+    lede: "शोभाअम्मा चैरिटेबल फाउंडेशन, जिसे Shobhamma, Shobhamma Foundation और SCF भी कहा जाता है, की स्थापना 21 जून 2024 को हुई। हम शिक्षा, महिला कौशल विकास, सामुदायिक कार्यक्रमों, और पर्यावरण विकास पर काम करते हैं।",
     storyTitle: "हम क्यों हैं",
     story: [
-      "कोई बच्चा इसलिए स्कूल न छोड़े कि परिवार फीस नहीं भर सकता। कोई विद्यार्थी किताबों या गणवेश के अभाव में वर्ष न खोए।",
+      "हर बच्चा स्कूल में बना रहे। हर महिला के पास कमाने का कौशल हो। हर पड़ोस अपनी जगह की देखभाल करे — साफ़ हवा, हरित भूमि, और पर्यावरण का साथ।",
     ],
     visionTitle: "दृष्टि",
-    vision: "एक ऐसा समाज जहाँ हर बच्चा पढ़ सके और हर विद्यार्थी स्कूल में बना रहे।",
+    vision:
+      "एक ऐसा समाज जहाँ हर बच्चा पढ़ सके, हर महिला सम्मान से कमाने का कौशल बना सके, और हर समुदाय अपने पर्यावरण की देखभाल कर सके।",
     missionTitle: "लक्ष्य",
-    mission: "जब परिवार खर्च नहीं उठा सकता, तब बच्चों और विद्यार्थियों की पढ़ाई जारी रखने में मदद करना।",
-    mvSeal: "पहले शिक्षा",
-    mvRibbon: "हर बच्चे के लिए स्कूल",
+    mission:
+      "जब परिवार खर्च नहीं उठा सकता तब शिक्षा का साथ देना, महिलाओं को व्यावहारिक कौशल सिखाना, सामुदायिक कार्यक्रम चलाना, और स्थानीय पर्यावरण विकास आगे बढ़ाना।",
+    mvSeal: "लोग और जगह",
+    mvRibbon: "शिक्षा · कौशल · पर्यावरण",
     mvMark: "2024",
     mvMarkLabel: "स्थापना",
     valuesTitle: "हम किस पर खड़े हैं",
@@ -600,12 +810,12 @@ export const hi: typeof en = {
         text: "फीस, किताबें और सामान, ताकि विद्यार्थी स्कूल में बना रहे।",
       },
       {
-        title: "अवसर",
-        text: "उस बच्चे के लिए समान मौका, जिसका परिवार अकेले स्कूल का खर्च नहीं उठा सकता।",
+        title: "महिला कौशल",
+        text: "व्यावहारिक प्रशिक्षण, ताकि महिलाएँ हुनर सीखें और परिवार का साथ दे सकें।",
       },
       {
-        title: "सम्मान",
-        text: "जिनकी हम सहायता करते हैं, उनकी निजता हम रखते हैं, और उनकी तस्वीरें प्रकाशित नहीं करते।",
+        title: "पर्यावरण",
+        text: "पौधरोपण, सफाई, और उन जगहों की देखभाल जहाँ हमारे समुदाय रहते हैं।",
       },
       {
         title: "हिसाब",
@@ -613,13 +823,13 @@ export const hi: typeof en = {
       },
     ],
     recordTitle: "पंजीकरण",
-    recordNote:
-      "इन विवरणों से आप जान सकते हैं कि हम कौन हैं। हम 80जी और 12ए प्रमाणित हैं।",
+    recordNote: "हम 80जी और 12ए प्रमाणित हैं।",
   },
   work: {
     kicker: "हमारा काम",
     title: "हम क्या करते हैं",
-    lede: "हम बच्चों और विद्यार्थियों की पढ़ाई जारी रखने में मदद करते हैं, और ऐसे सामुदायिक कार्यक्रमों से लोगों को साथ लाते हैं जो शिक्षा का साथ देते हैं।",
+    lede: "हम शिक्षा, सामुदायिक कार्यक्रमों, महिला कौशल विकास, और पर्यावरण विकास का साथ देते हैं।",
+    openPage: "कार्यक्रम पृष्ठ खोलें",
     students: {
       index: "01",
       title: "शिक्षा सहायता",
@@ -655,6 +865,71 @@ export const hi: typeof en = {
         "हम उत्तर कैसे दें।",
       ],
       link: "एक सामुदायिक कार्यक्रम रखें",
+    },
+    womenSkills: {
+      index: "03",
+      title: "महिला कौशल विकास",
+      intro:
+        "व्यावहारिक कौशल का प्रशिक्षण, ताकि महिलाएँ कोई हुनर सीख सकें, सम्मान से कमा सकें, और घर का साथ दे सकें।",
+      canTitle: "हम क्या देते हैं",
+      can: [
+        "सिलाई, बुनियादी हुनर, या आजीविका प्रशिक्षण जैसे छोटे बैच।",
+        "संस्था की टीम के मार्गदर्शन में सीखने का स्थान।",
+        "जहाँ संभव हो, स्थानीय काम से जोड़ने में मदद।",
+      ],
+      askTitle: "हमें कैसे बताएँ",
+      ask: [
+        "महिला का नाम और वह कौन-सा कौशल सीखना चाहती हैं।",
+        "वे कहाँ रहती हैं, और कब आ सकती हैं।",
+        "फ़ोन या ईमेल, जहाँ हम उत्तर दे सकें।",
+      ],
+      link: "महिला कौशल प्रशिक्षण के बारे में लिखें",
+      pageBody: [
+        "महिला कौशल विकास हमारे मुख्य कार्यक्रमों में से एक है। हम व्यावहारिक प्रशिक्षण रखते हैं, ताकि महिलाएँ उपयोगी कौशल सीखें, आत्मविश्वास बढ़ाएँ, और कमाने के रास्ते खोज सकें।",
+        "बैच में सिलाई, कढ़ाई, और स्थानीय क्षेत्र के अनुकूल अन्य आजीविका कौशल शामिल हो सकते हैं। हर बैच इतना छोटा रखा जाता है कि व्यक्तिगत ध्यान दिया जा सके।",
+        "यदि आप किसी ऐसी महिला को जानते हैं जो जुड़ना चाहती हैं, या आप कोई बैच आयोजित करने में मदद कर सकते हैं, तो हमें लिखें। हम संस्था के अपने ईमेल से उत्तर देंगे।",
+      ],
+      challengesTitle: "",
+      challenges: [],
+    },
+    environment: {
+      index: "04",
+      title: "पर्यावरण विकास",
+      intro:
+        "पौधरोपण, सफाई, और उन गलियों, स्कूलों व पड़ोस की देखभाल जहाँ हमारे समुदाय रहते हैं।",
+      canTitle: "हम क्या देते हैं",
+      can: [
+        "स्थानीय स्वयंसेवकों के साथ पौधरोपण और पौधों की देखभाल।",
+        "स्कूलों और सार्वजनिक स्थानों के आसपास सफाई अभियान।",
+        "स्थानीय पर्यावरण की देखभाल पर साधारण जागरूकता सत्र।",
+      ],
+      askTitle: "हमें कैसे बताएँ",
+      ask: [
+        "आप किस जगह को सुधारना चाहते हैं, और क्या ज़रूरत है।",
+        "कब का विचार है, भले तिथि अभी तय न हो।",
+        "हम उत्तर कैसे दें।",
+      ],
+      link: "एक पर्यावरण कार्यक्रम रखें",
+      pageBody: [
+        "पर्यावरण विकास का अर्थ है उन जगहों की देखभाल जहाँ लोग रहते, पढ़ते और मिलते हैं। हम पड़ोसियों के साथ पौधरोपण, सफाई, और साधारण स्थानीय सुधार पर काम करते हैं।",
+        "एक अभियान सुबह पौधरोपण का हो सकता है, स्कूल परिसर की सफाई का, या बच्चों को हरित स्थान की देखभाल सिखाने का।",
+        "यदि आपकी गली, स्कूल, या समूह हमारे साथ कोई अभियान रखना चाहता है, तो संस्था को लिखें। हम उत्तर देंगे और जो सहायता दे सकते हैं, उसकी योजना बनाएँगे।",
+      ],
+      challengesTitle: "मुख्य पर्यावरणीय चुनौतियाँ",
+      challenges: [
+        {
+          title: "वायु और जल प्रदूषण",
+          text: "तेज़ शहरीकरण, औद्योगिक विस्तार, और जीवाश्म ईंधन के भारी उपयोग से बड़े शहरों और इंडो-गैंगेटिक मैदानों में गंभीर वायु प्रदूषण बढ़ता है। अनुपचारित सीवेज और औद्योगिक कचरा नदियों, झीलों और भूजल को भी खराब करता है।",
+        },
+        {
+          title: "भूमि और पारिस्थितिकी तंत्र का क्षय",
+          text: "वैश्विक भूमि के छोटे हिस्से पर ऊँची जनसंख्या और पशुधन घनत्व से मिट्टी का कटाव, वन कटाई, और आवास का नुकसान होता है।",
+        },
+        {
+          title: "जलवायु संवेदनशीलता",
+          text: "भारत को भीषण गर्मी, सूखा, अनियमित मानसून, और बाढ़ के जोखिम का सामना करना पड़ता है, और कृषि अनुकूलन पर बहुत निर्भरता है।",
+        },
+      ],
     },
     limitsTitle: "हमारा वादा",
     limits: [
@@ -709,7 +984,7 @@ export const hi: typeof en = {
       pan: "पैन कार्ड नं.*",
       panHelp: "यदि पैन कार्ड नहीं है, तो आधार नंबर लिखें।",
       aadhaar: "आधार कार्ड नं.*",
-      idNote: "हम 80जी और 12ए प्रमाणित हैं। पैन या आधार से दानकर्ता का साफ़ रिकॉर्ड रखा जाता है।",
+      idNote: "हम 80जी और 12ए प्रमाणित हैं।",
       genderLabel: "लिंग",
       genders: [
         { id: "male", label: "पुरुष" },
@@ -743,6 +1018,8 @@ export const hi: typeof en = {
         { id: "education", label: "शिक्षा सहायता" },
         { id: "supplies", label: "किताबें और गणवेश" },
         { id: "community", label: "सामुदायिक कार्यक्रम" },
+        { id: "women", label: "महिला कौशल विकास" },
+        { id: "environment", label: "पर्यावरण विकास" },
         { id: "general", label: "जहाँ ज़रूरत हो" },
       ],
       submit: "अभी दान दें",
@@ -800,20 +1077,20 @@ export const hi: typeof en = {
       },
       {
         index: "04",
-        title: "सहयोगी संस्था",
-        text: "स्कूल और सामुदायिक समूह हमारे साथ काम कर सकते हैं। सचिव को लिखें।",
-        links: [{ id: "partner", label: "सहयोगी के रूप में लिखें" }],
+        title: "हमारे साथ सहयोग करें",
+        text: "स्कूल, कंपनियाँ और सामुदायिक समूह शिक्षा, महिला कौशल विकास और पर्यावरण कार्यक्रमों में हमारे साथ सहयोग कर सकते हैं।",
+        links: [{ id: "partner", label: "हमारे साथ सहयोग करें" }],
       },
     ],
   },
   contact: {
     kicker: "संपर्क",
     title: "संपर्क करें",
-    lede: "किसी विद्यार्थी का नाम बताइए, अपना समय दीजिए, या प्रश्न पूछिए। हम हर संदेश का उत्तर देते हैं।",
-    phoneNote:
-      "हम तक पहुँचने का तरीका ईमेल है। हम हर संदेश का उत्तर देते हैं।",
+    lede: "किसी विद्यार्थी का नाम बताइए, अपना समय दीजिए, हमारे साथ सहयोग कीजिए, या प्रश्न पूछिए। हम हर संदेश का उत्तर देते हैं।",
+    phoneNote: "हमें कॉल करें या ईमेल लिखें। हम हर संदेश का उत्तर देते हैं।",
     addressTitle: "पता",
     emailTitle: "ईमेल",
+    phoneTitle: "फ़ोन",
     form: {
       name: "आपका नाम",
       email: "ईमेल",
@@ -841,10 +1118,70 @@ export const hi: typeof en = {
       reasons: [
         { id: "student", label: "एक विद्यार्थी का नाम भेजना है" },
         { id: "volunteer", label: "स्वयंसेवा करनी है" },
-        { id: "partner", label: "स्कूल या समूह की ओर से" },
+        { id: "partner", label: "हमारे साथ सहयोग करें" },
         { id: "drive", label: "सामुदायिक अभियान में हाथ बँटाना है" },
+        { id: "women", label: "महिला कौशल विकास" },
+        { id: "environment", label: "पर्यावरण विकास" },
         { id: "other", label: "कोई अन्य बात" },
       ],
+    },
+  },
+  activities: {
+    kicker: "गतिविधियाँ",
+    title: "संस्था की गतिविधियाँ",
+    lede: "सार्वजनिक अपडेट, मीडिया, घोषणाएँ, और चिंता दर्ज करने का स्थान।",
+    media: "मीडिया",
+    announcements: "घोषणाएँ",
+    grievances: "शिकायतें",
+    others: "अन्य",
+    write: "हमें लिखें",
+    pages: {
+      media: {
+        kicker: "मीडिया",
+        title: "मीडिया",
+        lede: "शोभाअम्मा चैरिटेबल फाउंडेशन के लिए प्रेस और मीडिया अनुरोध।",
+        body: [],
+        images: [
+          {
+            src: "/images/media-handwork.png",
+            alt: "संस्था के कार्यक्रम में हस्तकला सीखती महिलाएँ",
+          },
+          {
+            src: "/images/media-digital-skills.png",
+            alt: "कंप्यूटर पर डिजिटल कौशल सीखती युवा महिलाएँ",
+          },
+        ],
+      },
+      announcements: {
+        kicker: "घोषणाएँ",
+        title: "घोषणाएँ",
+        lede: "संस्था की आधिकारिक सूचनाएँ यहाँ दिखेंगी।",
+        body: [
+          "कार्यक्रम की तिथियाँ, आवेदन की अवधि, और सार्वजनिक सूचनाएँ इस पृष्ठ पर डाली जाएँगी।",
+          "इस बीच नवीनतम जानकारी के लिए हमें लिखें, या जल्द ही इस पृष्ठ को फिर देखें।",
+        ],
+        images: [],
+      },
+      grievances: {
+        kicker: "शिकायतें",
+        title: "शिकायतें",
+        lede: "यदि हमारे काम को लेकर कोई चिंता है, तो इस मार्ग से बताएँ।",
+        body: [
+          "अपना नाम, संपर्क नंबर, और समस्या का स्पष्ट विवरण लिखकर संस्था के ईमेल पर भेजें।",
+          "हम हर संदेश पढ़ते हैं और संस्था के अपने ईमेल से उत्तर देते हैं। हमारे नाम वाले किसी व्यक्तिगत यूपीआई या इनबॉक्स पर पैसे या दस्तावेज़ न भेजें।",
+        ],
+        images: [],
+      },
+      others: {
+        kicker: "अन्य",
+        title: "अन्य सूचनाएँ",
+        lede: "संस्था की अन्य सार्वजनिक जानकारी।",
+        body: [
+          "नीति संबंधी नोट, कार्यक्रम की याद दिलाने वाली सूचनाएँ, और संबंधित सार्वजनिक जानकारी यहाँ साझा की जाएगी।",
+          "यदि कोई विशेष दस्तावेज़ या स्पष्टीकरण चाहिए, तो हमें लिखें — हम उत्तर देंगे।",
+        ],
+        images: [],
+      },
     },
   },
   notFound: {

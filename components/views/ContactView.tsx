@@ -33,6 +33,10 @@ export function ContactView({ lang }: { lang: Lang }) {
               </a>
             </div>
             <div>
+              <h2>{t.phoneTitle}</h2>
+              <a href={site.phoneHref}>{site.phone}</a>
+            </div>
+            <div>
               <h2>{t.emailTitle}</h2>
               <a href={`mailto:${site.email}`}>{site.email}</a>
             </div>

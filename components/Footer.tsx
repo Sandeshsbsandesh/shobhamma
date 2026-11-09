@@ -36,7 +36,15 @@ export function Footer() {
           <Link href={`${base}/support`}>{t.support.paths[0].title}</Link>
           <Link href={`${base}/support`}>{t.support.paths[1].title}</Link>
           <Link href={`${base}/support`}>{t.support.paths[2].title}</Link>
+          <Link href={`${base}/contact?about=partner`}>{t.nav.partner}</Link>
           <Link href={`${base}/contact`}>{t.nav.contact}</Link>
+        </div>
+        <div>
+          <p className="kicker">{t.nav.activities}</p>
+          <Link href={`${base}/media`}>{t.activities.media}</Link>
+          <Link href={`${base}/announcements`}>{t.activities.announcements}</Link>
+          <Link href={`${base}/grievances`}>{t.activities.grievances}</Link>
+          <Link href={`${base}/others`}>{t.activities.others}</Link>
         </div>
         <div>
           <p className="kicker">{t.footer.visit}</p>
@@ -45,6 +53,7 @@ export function Footer() {
               <span key={line}>{line}</span>
             ))}
           </address>
+          <a href={site.phoneHref}>{site.phone}</a>
           <a href={`mailto:${site.email}`}>{site.email}</a>
           <a href={site.maps} target="_blank" rel="noopener noreferrer">
             {t.footer.map}
