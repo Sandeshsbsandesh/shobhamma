@@ -1481,6 +1481,141 @@ img { max-width: 100%; display: block; }
 
 .register dd { margin: 0.35rem 0 0; font-weight: 500; overflow-wrap: anywhere; }
 
+.cert-badges {
+  margin-top: 1.35rem;
+  padding: 1.05rem 1.1rem 1.15rem;
+  border: 1px solid color-mix(in srgb, var(--brand) 28%, var(--line));
+  border-radius: 0.45rem;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--accent) 14%, transparent), transparent 42%),
+    var(--tint);
+}
+
+.cert-badges-title {
+  margin: 0 0 0.25rem;
+  color: var(--brand);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.lang-hi .cert-badges-title {
+  letter-spacing: 0;
+  text-transform: none;
+  font-size: 0.95rem;
+}
+
+.cert-badges-hint {
+  margin: 0 0 0.85rem;
+  color: var(--ink);
+  font-size: 0.98rem;
+  font-weight: 500;
+}
+
+.cert-badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+}
+
+.cert-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  min-width: 9.25rem;
+  padding: 0.85rem 1.05rem;
+  border: 2px solid color-mix(in srgb, var(--brand) 55%, var(--line));
+  border-radius: 0.4rem;
+  background: var(--surface);
+  color: var(--brand);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent);
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.cert-badge:hover,
+.cert-badge:focus-visible {
+  border-color: var(--brand);
+  background: #fff;
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 35%, transparent);
+  transform: translateY(-1px);
+  outline: none;
+}
+
+.cert-badge-icon {
+  display: grid;
+  place-items: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  background: var(--brand);
+  color: var(--brand-ink);
+}
+
+.cert-badge-icon svg {
+  width: 1.35rem;
+  height: 1.35rem;
+}
+
+.cert-badge-mark {
+  font-family: var(--font-ui);
+  font-size: 1.12rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--brand);
+}
+
+.cert-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  display: grid;
+  place-items: center;
+  padding: 1.1rem;
+  background: rgba(12, 28, 32, 0.58);
+  backdrop-filter: blur(2px);
+}
+
+.cert-modal {
+  width: min(56rem, 100%);
+  height: min(86vh, 48rem);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  overflow: hidden;
+  border-radius: 0.35rem;
+  background: var(--surface);
+  box-shadow: 0 18px 50px rgba(8, 24, 28, 0.28);
+}
+
+.cert-modal-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.85rem;
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.cert-modal-head h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.cert-modal-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.cert-frame {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: #f3f6f5;
+}
+
 .contact-aside > div { margin-bottom: 1.3rem; }
 
 address { font-style: normal; }

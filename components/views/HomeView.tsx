@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Arrow, Heart } from "@/components/Arrow";
+import { CertBadges } from "@/components/CertBadges";
 import { HeroSlides } from "@/components/HeroSlides";
 import { Reveal } from "@/components/Reveal";
 import { VisionMission } from "@/components/VisionMission";
@@ -257,6 +258,19 @@ export function HomeView({ lang }: { lang: Lang }) {
             {t.close.primary}
             <Arrow />
           </Link>
+        </div>
+      </section>
+
+      <section className="section band-paper">
+        <div className="wrap">
+          <CertBadges
+            lang={lang}
+            title={t.about.certTitle}
+            hint={t.about.certHint}
+            openLabel={t.about.certOpen}
+            closeLabel={t.about.certClose}
+            viewLabel={t.about.certView}
+          />
         </div>
       </section>
     </div>

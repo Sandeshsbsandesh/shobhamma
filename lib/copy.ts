@@ -226,6 +226,11 @@ export const en = {
     ],
     recordTitle: "Registration",
     recordNote: "We are 80G and 12A certified.",
+    certTitle: "Tax certificates",
+    certHint: "Click to view certificates",
+    certOpen: "Open certificate",
+    certClose: "Close",
+    certView: "Open PDF",
   },
   work: {
     kicker: "Our work",
@@ -822,6 +827,11 @@ export const hi: typeof en = {
     ],
     recordTitle: "पंजीकरण",
     recordNote: "हम 80जी और 12ए प्रमाणित हैं।",
+    certTitle: "कर प्रमाणपत्र",
+    certHint: "प्रमाणपत्र देखने के लिए क्लिक करें",
+    certOpen: "प्रमाणपत्र खोलें",
+    certClose: "बंद करें",
+    certView: "PDF खोलें",
   },
   work: {
     kicker: "हमारा काम",

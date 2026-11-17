@@ -1,3 +1,4 @@
+import { CertBadges } from "@/components/CertBadges";
 import { Register } from "@/components/Register";
 import { VisionMission } from "@/components/VisionMission";
 import { copy, type Lang } from "@/lib/copy";
@@ -50,6 +51,14 @@ export function AboutView({ lang }: { lang: Lang }) {
           <h2 className="section-title">{t.recordTitle}</h2>
           <Register lang={lang} />
           <p className="note">{t.recordNote}</p>
+          <CertBadges
+            lang={lang}
+            title={t.certTitle}
+            hint={t.certHint}
+            openLabel={t.certOpen}
+            closeLabel={t.certClose}
+            viewLabel={t.certView}
+          />
         </div>
       </section>
     </div>
