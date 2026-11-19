@@ -24,6 +24,10 @@ export const site = {
   phoneHref: "tel:+919386730222",
   url: "https://shobhaamma.com",
   registration: "ABNCS7300JE20241",
+  certs: {
+    section80G: "ABNCS7300JF20241",
+    section12A: "ABNCS7300JE20241",
+  },
   foundedISO: "2024-06-21",
   foundedYear: 2024,
   founded: {

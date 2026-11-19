@@ -263,14 +263,7 @@ export function HomeView({ lang }: { lang: Lang }) {
 
       <section className="section band-paper">
         <div className="wrap">
-          <CertBadges
-            lang={lang}
-            title={t.about.certTitle}
-            hint={t.about.certHint}
-            openLabel={t.about.certOpen}
-            closeLabel={t.about.certClose}
-            viewLabel={t.about.certView}
-          />
+          <CertBadges lang={lang} title={t.about.certTitle} />
         </div>
       </section>
     </div>

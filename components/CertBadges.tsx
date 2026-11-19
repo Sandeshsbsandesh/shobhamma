@@ -1,68 +1,24 @@
-"use client";
-
-import { useEffect, useId, useState } from "react";
 import type { Lang } from "@/lib/copy";
+import { copy } from "@/lib/copy";
+import { site } from "@/lib/site";
 
-type CertId = "80g" | "12a";
+const CERTS = [
+  { id: "80g", mark: "80G", number: site.certs.section80G },
+  { id: "12a", mark: "12A", number: site.certs.section12A },
+] as const;
 
-const CERTS: Record<
-  CertId,
-  { label: string; href: string; mark: string }
-> = {
-  "80g": { label: "80G", href: "/certificates/80G.pdf", mark: "80G" },
-  "12a": { label: "12A", href: "/certificates/12A.pdf", mark: "12A" },
-};
-
-export function CertBadges({
-  lang,
-  title,
-  hint,
-  openLabel,
-  closeLabel,
-  viewLabel,
-}: {
-  lang: Lang;
-  title: string;
-  hint: string;
-  openLabel: string;
-  closeLabel: string;
-  viewLabel: string;
-}) {
-  const [open, setOpen] = useState<CertId | null>(null);
-  const titleId = useId();
-  const active = open ? CERTS[open] : null;
-
-  useEffect(() => {
-    if (!open) return;
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setOpen(null);
-    };
-    document.addEventListener("keydown", onKey);
-    const prev = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
-    return () => {
-      document.removeEventListener("keydown", onKey);
-      document.body.style.overflow = prev;
-    };
-  }, [open]);
+export function CertBadges({ lang, title }: { lang: Lang; title: string }) {
+  const regLabel = copy[lang].about.certRegNo;
 
   return (
     <div className="cert-badges" lang={lang}>
       <p className="cert-badges-title">{title}</p>
-      <p className="cert-badges-hint">{hint}</p>
-      <div className="cert-badge-row">
-        {(Object.keys(CERTS) as CertId[]).map((id) => {
-          const cert = CERTS[id];
-          return (
-            <button
-              key={id}
-              type="button"
-              className="cert-badge"
-              onClick={() => setOpen(id)}
-              aria-label={`${openLabel} ${cert.label}`}
-            >
+      <ul className="cert-badge-row">
+        {CERTS.map((cert) => (
+          <li key={cert.id} className="cert-badge">
+            <div className="cert-badge-top">
               <span className="cert-badge-icon" aria-hidden="true">
-                <svg viewBox="0 0 64 64" width="40" height="40">
+                <svg viewBox="0 0 64 64" width="28" height="28">
                   <path
                     d="M32 4 52 12v18c0 14.5-9.2 24.8-20 28-10.8-3.2-20-13.5-20-28V12L32 4z"
                     fill="none"
@@ -81,35 +37,14 @@ export function CertBadges({
                 </svg>
               </span>
               <span className="cert-badge-mark">{cert.mark}</span>
-            </button>
-          );
-        })}
-      </div>
-
-      {active ? (
-        <div
-          className="cert-modal-overlay"
-          role="dialog"
-          aria-modal="true"
-          aria-labelledby={titleId}
-          onClick={() => setOpen(null)}
-        >
-          <div className="cert-modal" onClick={(e) => e.stopPropagation()}>
-            <div className="cert-modal-head">
-              <h2 id={titleId}>{active.label}</h2>
-              <div className="cert-modal-actions">
-                <a className="text-link" href={active.href} target="_blank" rel="noreferrer">
-                  {viewLabel}
-                </a>
-                <button type="button" className="btn btn-ghost" onClick={() => setOpen(null)}>
-                  {closeLabel}
-                </button>
-              </div>
             </div>
-            <iframe className="cert-frame" title={active.label} src={`${active.href}#view=FitH`} />
-          </div>
-        </div>
-      ) : null}
+            <p className="cert-number">
+              <span className="cert-reg-label">{regLabel}</span>
+              <span className="cert-reg-value">{cert.number}</span>
+            </p>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
